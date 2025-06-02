@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0021-merge-two-sorted-lists) |
+| [0203-remove-linked-list-elements](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0203-remove-linked-list-elements) |
 | [1013-fibonacci-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/1013-fibonacci-number) |
 ## Memoization
 |  |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0021-merge-two-sorted-lists) |
+| [0203-remove-linked-list-elements](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0203-remove-linked-list-elements) |
 ## Simulation
 |  |
 | ------- |
