@@ -8,12 +8,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0009-palindrome-number) |
 | [0066-plus-one](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0066-plus-one) |
+| [0189-rotate-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0189-rotate-array) |
 | [0258-add-digits](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0258-add-digits) |
 | [1013-fibonacci-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/1013-fibonacci-number) |
 ## Two Pointers
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0125-valid-palindrome) |
+| [0189-rotate-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0189-rotate-array) |
 ## String
 |  |
 | ------- |
@@ -38,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0001-two-sum) |
 | [0066-plus-one](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0066-plus-one) |
+| [0189-rotate-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0189-rotate-array) |
 ## Hash Table
 |  |
 | ------- |
