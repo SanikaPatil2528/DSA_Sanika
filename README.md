@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0125-valid-palindrome](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0125-valid-palindrome) |
+| [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
 | [0485-max-consecutive-ones](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0485-max-consecutive-ones) |
+| [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Hash Table
@@ -63,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
+| [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
@@ -94,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
+| [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -106,13 +110,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 <!---LeetCode Topics End-->
