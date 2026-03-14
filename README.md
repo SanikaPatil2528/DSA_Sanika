@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0075-sort-colors](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0125-valid-palindrome) |
+| [0141-linked-list-cycle](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0141-linked-list-cycle/) | Easy |
 | [0189-rotate-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0189-rotate-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/2271-rearrange-array-elements-by-sign) |
 ## String
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0001-two-sum) |
+| [0141-linked-list-cycle](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0141-linked-list-cycle/) | Easy |
 | [0169-majority-element](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
@@ -83,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0021-merge-two-sorted-lists) |
+| [0141-linked-list-cycle](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0141-linked-list-cycle/) | Easy |
 | [0203-remove-linked-list-elements](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0203-remove-linked-list-elements) |
 ## Simulation
 | Problem Name | Difficulty |
