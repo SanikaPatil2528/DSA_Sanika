@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0213-house-robber-ii/) | Medium |
+| [0494-target-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0494-target-sum/) | Medium |
 | [1013-fibonacci-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/1013-fibonacci-number) |
 ## Recursion
 | Problem Name | Difficulty |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0455-assign-cookies/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0485-max-consecutive-ones) |
+| [0494-target-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0494-target-sum/) | Medium |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 | [0827-making-a-large-island](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0827-making-a-large-island/) | Hard |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -172,4 +174,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0494-target-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0494-target-sum/) | Medium |
 <!---LeetCode Topics End-->
