@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0115-distinct-subsequences/) | Hard |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+| [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
 | [0198-house-robber](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0213-house-robber-ii/) | Medium |
 | [0494-target-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0494-target-sum/) | Medium |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+| [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
 | [0136-single-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0189-rotate-array) |
