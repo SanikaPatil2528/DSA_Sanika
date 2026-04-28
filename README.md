@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0189-rotate-array) |
 | [0258-add-digits](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
+| [0368-largest-divisible-subset](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0368-largest-divisible-subset/) | Medium |
 | [1013-fibonacci-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/1013-fibonacci-number) |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0213-house-robber-ii/) | Medium |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
+| [0368-largest-divisible-subset](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0494-target-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0494-target-sum/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0518-coin-change-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0518-coin-change-ii/) | Medium |
@@ -92,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0213-house-robber-ii/) | Medium |
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
+| [0368-largest-divisible-subset](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0455-assign-cookies](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0455-assign-cookies/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0494-target-sum/) | Medium |
@@ -144,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
+| [0368-largest-divisible-subset](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0455-assign-cookies](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0455-assign-cookies/) | Easy |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
