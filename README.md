@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0031-next-permutation](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0031-next-permutation/) | Medium |
 | [0075-sort-colors](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0141-linked-list-cycle/) | Easy |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0001-two-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0031-next-permutation](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0031-next-permutation/) | Medium |
 | [0053-maximum-subarray](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0064-minimum-path-sum/) | Medium |
 | [0066-plus-one](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0066-plus-one) |
