@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0009-palindrome-number) |
+| [0048-rotate-image](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0048-rotate-image/) | Medium |
 | [0062-unique-paths](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0062-unique-paths/) | Medium |
 | [0066-plus-one](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0066-plus-one) |
 | [0189-rotate-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0189-rotate-array) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0031-next-permutation/) | Medium |
+| [0048-rotate-image](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0048-rotate-image/) | Medium |
 | [0053-maximum-subarray](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0064-minimum-path-sum/) | Medium |
 | [0066-plus-one](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0066-plus-one) |
@@ -203,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0048-rotate-image/) | Medium |
 | [0064-minimum-path-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0064-minimum-path-sum/) | Medium |
 | [0827-making-a-large-island](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0827-making-a-large-island/) | Hard |
 | [1559-detect-cycles-in-2d-grid](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
