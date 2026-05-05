@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0064-minimum-path-sum/) | Medium |
 | [0072-edit-distance](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0072-edit-distance/) | Medium |
 | [0115-distinct-subsequences](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0115-distinct-subsequences/) | Hard |
+| [0118-pascals-triangle](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0118-pascals-triangle/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0064-minimum-path-sum/) | Medium |
 | [0066-plus-one](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0075-sort-colors) |
+| [0118-pascals-triangle](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0118-pascals-triangle/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
