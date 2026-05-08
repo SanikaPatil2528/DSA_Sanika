@@ -12,15 +12,13 @@
 class Solution {
 public:
     vector<int> postorderTraversal(TreeNode* root) {
+        if(root==nullptr) return {};
+        vector<int>left=postorderTraversal(root->left);
+        vector<int>right=postorderTraversal(root->right);
         vector<int>final;
-        helper(root,final);
-        return final;
-    }
-
-    void helper(TreeNode *root,vector<int>&final){
-        if(root==NULL) return;
-        helper(root->left,final);
-        helper(root->right,final);
+        final.insert(final.end(),left.begin(),left.end());
+        final.insert(final.end(),right.begin(),right.end());
         final.push_back(root->val);
+        return final;
     }
 };
