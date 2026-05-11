@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 | [2271-rearrange-array-elements-by-sign](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2553-separate-the-digits-in-an-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0258-add-digits) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 | [2271-rearrange-array-elements-by-sign](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2553-separate-the-digits-in-an-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 ## Number Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
