@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
 | [1903-largest-odd-number-in-string](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1903-largest-odd-number-in-string/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -174,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -241,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0169-majority-element](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0169-majority-element) |
 | [0451-sort-characters-by-frequency](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0451-sort-characters-by-frequency/) | Medium |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
