@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
+| [1021-remove-outermost-parentheses](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1092-shortest-common-supersequence](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
@@ -303,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
+| [1021-remove-outermost-parentheses](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1021-remove-outermost-parentheses/) | Easy |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
