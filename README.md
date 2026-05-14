@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0368-largest-divisible-subset/) | Medium |
 | [1013-fibonacci-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/1013-fibonacci-number) |
+| [1903-largest-odd-number-in-string](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1903-largest-odd-number-in-string/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1092-shortest-common-supersequence](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
+| [1903-largest-odd-number-in-string](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1903-largest-odd-number-in-string/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -272,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0455-assign-cookies/) | Easy |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
+| [1903-largest-odd-number-in-string](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1903-largest-odd-number-in-string/) | Easy |
 ## Combinatorics
 | Problem Name | Difficulty |
 | ------- | ------- |
