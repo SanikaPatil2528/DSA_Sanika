@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0014-longest-common-prefix/) | Easy |
 | [0044-wildcard-matching](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0044-wildcard-matching/) | Hard |
 | [0072-edit-distance](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0072-edit-distance/) | Medium |
 | [0115-distinct-subsequences](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0115-distinct-subsequences/) | Hard |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0001-two-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
+| [0014-longest-common-prefix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0014-longest-common-prefix/) | Easy |
 | [0018-4sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0018-4sum/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0031-next-permutation/) | Medium |
@@ -320,4 +322,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0102-binary-tree-level-order-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0014-longest-common-prefix/) | Easy |
 <!---LeetCode Topics End-->
