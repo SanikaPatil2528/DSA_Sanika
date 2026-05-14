@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0132-palindrome-partitioning-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0132-palindrome-partitioning-ii/) | Hard |
 | [0151-reverse-words-in-a-string](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0205-isomorphic-strings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0205-isomorphic-strings/) | Easy |
+| [0242-valid-anagram](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0242-valid-anagram/) | Easy |
 | [0516-longest-palindromic-subsequence](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0141-linked-list-cycle/) | Easy |
 | [0169-majority-element](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0205-isomorphic-strings/) | Easy |
+| [0242-valid-anagram](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0242-valid-anagram/) | Easy |
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
@@ -208,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0018-4sum/) | Medium |
 | [0075-sort-colors](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0169-majority-element) |
+| [0242-valid-anagram](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0242-valid-anagram/) | Easy |
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0455-assign-cookies](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0455-assign-cookies/) | Easy |
