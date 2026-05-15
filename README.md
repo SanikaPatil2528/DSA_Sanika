@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0189-rotate-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0189-rotate-array) |
+| [0234-palindrome-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0283-move-zeroes](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0283-move-zeroes/) | Easy |
 | [0455-assign-cookies](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0455-assign-cookies/) | Easy |
 | [2149-rearrange-array-elements-by-sign](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0044-wildcard-matching/) | Hard |
 | [0203-remove-linked-list-elements](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0206-reverse-linked-list/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0234-palindrome-linked-list/) | Easy |
 | [1013-fibonacci-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/1013-fibonacci-number) |
 ## Memoization
 | Problem Name | Difficulty |
@@ -189,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0203-remove-linked-list-elements](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0206-reverse-linked-list/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
@@ -337,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0234-palindrome-linked-list/) | Easy |
 | [1021-remove-outermost-parentheses](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 ## Tree
