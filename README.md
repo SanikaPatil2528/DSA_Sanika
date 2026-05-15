@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0021-merge-two-sorted-lists) |
 | [0044-wildcard-matching](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0044-wildcard-matching/) | Hard |
 | [0203-remove-linked-list-elements](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0203-remove-linked-list-elements) |
+| [0206-reverse-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0206-reverse-linked-list/) | Easy |
 | [1013-fibonacci-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/1013-fibonacci-number) |
 ## Memoization
 | Problem Name | Difficulty |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0061-rotate-list/) | Medium |
 | [0141-linked-list-cycle](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0141-linked-list-cycle/) | Easy |
 | [0203-remove-linked-list-elements](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0203-remove-linked-list-elements) |
+| [0206-reverse-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0206-reverse-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
