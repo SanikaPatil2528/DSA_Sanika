@@ -10,21 +10,17 @@
  * };
  */
 class Solution {
-public:
-    int diameterOfBinaryTree(TreeNode* root) {
-        int maxi=0;
-        height(root,maxi);
-        return maxi;
-    }
-
     int height(TreeNode* root,int &maxi){
         if(!root) return 0;
-
-        int lh=height(root->left,maxi);
-        int rh=height(root->right,maxi);
-
-        maxi=max(maxi,lh+rh);
-
-        return 1+max(lh,rh);
+        int left=height(root->left,maxi);
+        int right=height(root->right,maxi);
+        maxi=max(maxi,left+right);
+        return 1+max(left,right);
+    }
+public:
+    int diameterOfBinaryTree(TreeNode* root) {
+        int ans=INT_MIN;
+        int h=height(root,ans);
+        return ans;
     }
 };
