@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0018-4sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0018-4sum/) | Medium |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0031-next-permutation/) | Medium |
 | [0061-rotate-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0061-rotate-list/) | Medium |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0002-add-two-numbers) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0021-merge-two-sorted-lists) |
 | [0061-rotate-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0061-rotate-list/) | Medium |
 | [0141-linked-list-cycle](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0141-linked-list-cycle/) | Easy |
