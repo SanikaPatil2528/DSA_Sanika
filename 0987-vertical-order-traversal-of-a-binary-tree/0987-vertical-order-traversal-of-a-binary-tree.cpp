@@ -12,38 +12,28 @@
 class Solution {
 public:
     vector<vector<int>> verticalTraversal(TreeNode* root) {
-
-        // vertical,level,multiset of node values (v,l,set)
-        map<int,map<int,multiset<int>>> nodes;
-
-        // BFS (Level order)
-        // node ,v,l
-        queue<pair<TreeNode*,pair<int,int>>> todo;
-        todo.push({root,{0,0}});
-
-        // Assigning each node the values of vertical & level (v,l) & adding them in map
-        while(!todo.empty()){
-            auto p=todo.front();
-            todo.pop();
-            TreeNode* node=p.first;
-            int v=p.second.first;
-            int l=p.second.second;
-            nodes[v][l].insert(node->val);
-
-            if (node->left) todo.push({node->left,{v-1,l+1}});
-            if (node->right) todo.push({node->right,{v+1,l+1}});
+        // node,v,level
+        queue<pair<TreeNode*,pair<int,int>>>q;
+        q.push({root,{0,0}});
+        // v->{r->{]}}
+        map<int,map<int,multiset<int>>>mpp;
+        while(!q.empty()){
+            auto [node,coords]=q.front();
+            auto [v,level]=coords;
+            q.pop();
+            mpp[v][level].insert(node->val);
+            if(node->left) q.push({node->left,{v-1,level+1}});
+            if(node->right) q.push({node->right,{v+1,level+1}});
         }
-
-
-        vector<vector<int>> ans;
-        for(auto p:nodes){
-            vector<int>col;
-            for(auto q: p.second){
-                col.insert(col.end(),q.second.begin(),q.second.end());
+        vector<vector<int>>ans;
+        for(auto vertical:mpp){
+            vector<int>temp;
+            for(auto r:vertical.second){
+                auto st=r.second;
+                temp.insert(temp.end(),st.begin(),st.end());
             }
-            ans.push_back(col);
+            ans.push_back(temp);
         }
-
         return ans;
     }
 };
