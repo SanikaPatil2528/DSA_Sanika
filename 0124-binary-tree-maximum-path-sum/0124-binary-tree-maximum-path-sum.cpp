@@ -10,21 +10,20 @@
  * };
  */
 class Solution {
+private:
+    int getPathSum(TreeNode*root, int &ans){
+        if(!root) return 0;
+        int left=getPathSum(root->left,ans);
+        left=max(0,left);
+        int right=getPathSum(root->right,ans);
+        right=max(0,right);
+        ans=max(ans,left+right+root->val);
+        return root->val+max(left,right);
+    }
 public:
     int maxPathSum(TreeNode* root) {
-        int maxi=INT_MIN;
-        int ans=helper(root,maxi);
-        return maxi;
-    }
-
-    int helper(TreeNode *root,int& maxi){
-        if (root==nullptr){
-            return 0;
-        }
-        int leftSum=max(0,helper(root->left,maxi));
-        int rightSum=max(0,helper(root->right,maxi));
-
-        maxi=max(maxi,leftSum+rightSum+root->val);
-        return (root->val+max(leftSum,rightSum));
+        int ans=INT_MIN;
+        int pathSum=getPathSum(root,ans);
+        return ans;
     }
 };
