@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0283-move-zeroes](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0283-move-zeroes/) | Easy |
 | [0455-assign-cookies](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0455-assign-cookies/) | Easy |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 | [2149-rearrange-array-elements-by-sign](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 | [2271-rearrange-array-elements-by-sign](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/2271-rearrange-array-elements-by-sign) |
 ## String
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
 | [0328-odd-even-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0328-odd-even-linked-list/) | Medium |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
