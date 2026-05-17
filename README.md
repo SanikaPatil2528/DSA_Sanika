@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0142-linked-list-cycle-ii/) | Medium |
+| [0148-sort-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0148-sort-list/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0189-rotate-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0234-palindrome-linked-list/) | Easy |
@@ -195,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0061-rotate-list/) | Medium |
 | [0141-linked-list-cycle](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0142-linked-list-cycle-ii/) | Medium |
+| [0148-sort-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0148-sort-list/) | Medium |
 | [0203-remove-linked-list-elements](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0234-palindrome-linked-list/) | Easy |
@@ -239,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0018-4sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0018-4sum/) | Medium |
 | [0075-sort-colors](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0075-sort-colors) |
+| [0148-sort-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0148-sort-list/) | Medium |
 | [0169-majority-element](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0242-valid-anagram/) | Easy |
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
@@ -254,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0053-maximum-subarray](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0053-maximum-subarray) |
+| [0148-sort-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0148-sort-list/) | Medium |
 | [0169-majority-element](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0493-reverse-pairs](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0493-reverse-pairs/) | Hard |
@@ -349,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0148-sort-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0148-sort-list/) | Medium |
 | [0493-reverse-pairs](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0493-reverse-pairs/) | Hard |
 ## Ordered Set
 | Problem Name | Difficulty |
