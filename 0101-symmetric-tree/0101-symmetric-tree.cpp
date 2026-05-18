@@ -10,16 +10,15 @@
  * };
  */
 class Solution {
+private:
+    bool checkSymmetry(TreeNode*t1,TreeNode*t2){
+        if(t1==nullptr && t2==nullptr) return true;
+        if(t1==nullptr || t2==nullptr) return false;
+        return (t1->val==t2->val && checkSymmetry(t1->left,t2->right) && checkSymmetry(t1->right,t2->left));
+    }
 public:
     bool isSymmetric(TreeNode* root) {
-        if (root==NULL) return true;
-        return symmetry(root->left,root->right);
-    }
-
-    bool symmetry(TreeNode* t1,TreeNode* t2){
-        if (t1==NULL && t2==NULL) return true;
-        if (t1==NULL || t2==NULL) return false;
-        
-        return (t1->val==t2->val && symmetry(t1->left,t2->right) && symmetry(t1->right,t2->left));
+        if(root==nullptr) return true;
+        return checkSymmetry(root->left,root->right);
     }
 };
