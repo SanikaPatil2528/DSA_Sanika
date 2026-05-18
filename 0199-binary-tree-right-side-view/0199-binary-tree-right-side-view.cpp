@@ -10,22 +10,17 @@
  * };
  */
 class Solution {
+private:
+    void reversePreorder(TreeNode*root,vector<int>&ans,int level){
+        if(root==nullptr) return ;
+        if(ans.size()==level) ans.push_back(root->val);
+        reversePreorder(root->right,ans,level+1);
+        reversePreorder(root->left,ans,level+1);
+    }
 public:
     vector<int> rightSideView(TreeNode* root) {
         vector<int>ans;
-        if (root==NULL) return ans;
-        int level=0;
-        reversePreorder(root,ans,level); // root,right,left
-
+        reversePreorder(root,ans,0);
         return ans;
-    }
-
-    void reversePreorder(TreeNode* root,vector<int>& ans,int level){
-
-        // if that level is visited first time i.e, node is first node from right in that level
-        if(level==ans.size()) ans.push_back(root->val);
-
-        if(root->right) reversePreorder(root->right,ans,level+1);
-        if(root->left) reversePreorder(root->left,ans,level+1);
     }
 };
