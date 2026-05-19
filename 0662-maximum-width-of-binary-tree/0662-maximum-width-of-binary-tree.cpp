@@ -12,32 +12,26 @@
 class Solution {
 public:
     int widthOfBinaryTree(TreeNode* root) {
-        if(root==NULL) return 0;
-        int ans=0;
-        
-        // BFS (Level order) and normalizing the indices of nodes
-        queue<pair<TreeNode*,long long>> nodes;
-        nodes.push({root,0});
-
-        while(!nodes.empty()){
-            int min=nodes.front().second;
-            int size=nodes.size();
+        if(!root) return 0;
+        // {node,index}
+        queue<pair<TreeNode*,long long>>q;
+        int maxWidth=0;
+        q.push({root,0});
+        while(!q.empty()){
+            int mini=q.front().second;
+            int size=q.size();
             int first,last;
             for(int i=0;i<size;i++){
-                TreeNode* curr_node=nodes.front().first;
-                long long curr_index=nodes.front().second-min;
-                nodes.pop();
-
-                if(i==0) first=curr_index;
-                if(i==size-1) last=curr_index;
-
-                if(curr_node->left) nodes.push({curr_node->left,curr_index*2+1});
-                if(curr_node->right) nodes.push({curr_node->right,curr_index*2+2});
-                
+                auto [node,idx]=q.front();
+                q.pop();
+                int curr_idx=idx-mini;
+                if(node->left) q.push({node->left,(long long)2*curr_idx+1});
+                if(node->right) q.push({node->right,(long long)2*curr_idx+2});
+                if(i==0) first=idx;
+                if(i==size-1) last=idx;
             }
-            ans=max(ans,last-first+1);
-
+            maxWidth=max(maxWidth, last-first+1);
         }
-        return ans;
+        return maxWidth;
     }
 };
