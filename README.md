@@ -370,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
+| [0155-min-stack](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0155-min-stack/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0234-palindrome-linked-list/) | Easy |
 | [1021-remove-outermost-parentheses](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
@@ -409,4 +410,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0451-sort-characters-by-frequency/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0155-min-stack](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0155-min-stack/) | Medium |
 <!---LeetCode Topics End-->
