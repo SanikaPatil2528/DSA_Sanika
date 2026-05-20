@@ -10,27 +10,27 @@
  * };
  */
 class Solution {
+private:
+    TreeNode* build(vector<int>&preorder,int preStart,int preEnd,vector<int>&inorder,int inStart,int inEnd,unordered_map<int,int>&mpp){
+        if(inStart>inEnd || preStart>preEnd) return NULL;
+
+       TreeNode* root=new TreeNode(preorder[preStart]);
+       int inRoot=mpp[root->val];
+       int numsLeft=inRoot-inStart;
+
+       root->left=build(preorder,preStart+1,preStart+numsLeft,inorder,inStart,inRoot-1,mpp);
+       root->right=build(preorder,preStart+numsLeft+1,preEnd,inorder,inRoot+1,inEnd,mpp);
+
+       return root;
+    }
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        map<int,int>inmap;
-        for(int i=0;i<inorder.size();i++)
-            inmap[inorder[i]]=i;
-
-        TreeNode* root= buildTree(0,preorder.size()-1,preorder,0,inorder.size()-1,inorder,inmap);
-        
-        return root;
-    }
-
-    TreeNode* buildTree(int preStart,int preEnd,vector<int>&preorder,int inStart,int inEnd,vector<int>&inorder,map<int,int>&inmap){
-        if(preStart>preEnd || inStart>inEnd) return NULL;
-
-        TreeNode* root=new TreeNode(preorder[preStart]);
-        int inroot=inmap[root->val];
-        int numsLeft=inroot-inStart;
-
-        root->left=buildTree(preStart+1,preStart+numsLeft,preorder,inStart,inroot-1,inorder,inmap);
-        root->right=buildTree(preStart+numsLeft+1,preEnd,preorder,inroot+1,inEnd,inorder,inmap);
-
+        // node,idx for inorder
+        unordered_map<int,int>mpp;
+        int n=inorder.size();
+        for(int i=0;i<n;i++)
+            mpp[inorder[i]]=i;
+        TreeNode* root=build(preorder,0,n-1,inorder,0,n-1,mpp);
         return root;
     }
 };
