@@ -186,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
@@ -284,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 | [0827-making-a-large-island](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0827-making-a-large-island/) | Hard |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1192-critical-connections-in-a-network](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1192-critical-connections-in-a-network/) | Hard |
@@ -310,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 | [0827-making-a-large-island](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0827-making-a-large-island/) | Hard |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1559-detect-cycles-in-2d-grid](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 ## Matrix
@@ -388,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -401,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Trie
 | Problem Name | Difficulty |
