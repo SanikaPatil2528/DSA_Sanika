@@ -12,21 +12,22 @@ public:
 
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
-        // # represents NULL in the string
-
         if(root==NULL) return "";
-
         string s="";
         queue<TreeNode*>q;
         q.push(root);
         while(!q.empty()){
-            TreeNode* curr=q.front();
-            q.pop();
-            if(curr==NULL) s.append("#,");
-            else s.append(to_string(curr->val)+',');
-            if(curr!=NULL){
-                q.push(curr->left);
-                q.push(curr->right);
+            int size=q.size();
+            while(size--){
+                TreeNode*curr=q.front();
+                q.pop();
+                if(curr==NULL) s+="#";
+                else s+=to_string(curr->val);
+                s+=",";
+                if(curr!=NULL){
+                    q.push(curr->left);
+                    q.push(curr->right);
+                }
             }
         }
         cout<<s;
@@ -35,35 +36,24 @@ public:
 
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
-        if(data.size()==0) return NULL;
-
+        if(data=="") return NULL;
         stringstream s(data);
         string str;
-        queue<TreeNode*>q;
-        
         getline(s,str,',');
-        TreeNode* root=new TreeNode(stoi(str));
+        TreeNode*root=new TreeNode(stoi(str));
+        queue<TreeNode*>q;
         q.push(root);
-
         while(!q.empty()){
-            TreeNode* curr=q.front();
+            TreeNode *curr=q.front();
             q.pop();
-
             getline(s,str,',');
-            if(str=="#") curr->left=NULL;
-            else{
-                TreeNode* leftNode=new TreeNode(stoi(str));
-                curr->left=leftNode;
-                q.push(leftNode);
-            }
+            curr->left=str=="#"?NULL:new TreeNode(stoi(str));
+            if(curr->left) q.push(curr->left);
             getline(s,str,',');
-            if(str=="#") curr->right=NULL;
-            else{
-                TreeNode* rightNode=new TreeNode(stoi(str));
-                curr->right=rightNode;
-                q.push(rightNode);
-            }
+            curr->right=str=="#"?NULL:new TreeNode(stoi(str));
+            if(curr->right) q.push(curr->right);
         }
+
         return root;
     }
 };
