@@ -10,44 +10,32 @@
  * };
  */
 class Solution {
-public:
-    TreeNode* deleteNode(TreeNode* root, int key) {
-        if(root==NULL) return NULL;
-        if(root->val==key) return helper(root);
-
-        TreeNode* dummy=root;
-        while(root!=NULL){
-            if(root->val<key){
-                if(root->right!=NULL && root->right->val==key){
-                     root->right=helper(root->right);
-                     break;
-                }
-                else root=root->right;
-            }
-            else{
-                if(root->left!=NULL && root->left->val==key){
-                    root->left=helper(root->left);
-                    break;
-                } 
-                else root=root->left;
-            }
-        }
-        return dummy;
-    }
-
-    TreeNode* helper(TreeNode* root){
+private:
+    TreeNode* helper(TreeNode* &root){
         if(root->left==NULL) return root->right;
         if(root->right==NULL) return root->left;
-
-        TreeNode* rightChild=root->right;
-        TreeNode* RightMostInLeft=goRight(root->left);
-        RightMostInLeft->right=rightChild;
-
+        TreeNode* temp=root->left;
+        while(temp->right) temp=temp->right;
+        temp->right=root->right;
         return root->left;
     }
-
-    TreeNode* goRight(TreeNode* root){
-        if(root->right==NULL) return root;
-        return goRight(root->right);
+public:
+    TreeNode* deleteNode(TreeNode* root, int key) {
+        if(!root) return NULL;
+        if(root->val==key) return helper(root);
+        TreeNode *curr=root;
+        while(curr){
+            if(curr->left && curr->left->val==key){
+                curr->left=helper(curr->left);
+                return root;
+            }
+            else if(curr->right && curr->right->val==key){
+                curr->right=helper(curr->right);
+                return root;
+            }
+            if(curr->val>key) curr=curr->left;
+            else curr=curr->right;
+        }
+        return root;
     }
 };
