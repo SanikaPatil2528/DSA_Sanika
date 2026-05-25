@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/1013-fibonacci-number) |
 | [1092-shortest-common-supersequence](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 ## Recursion
 | Problem Name | Difficulty |
@@ -315,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1192-critical-connections-in-a-network](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1192-critical-connections-in-a-network/) | Hard |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1559-detect-cycles-in-2d-grid](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -442,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -471,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -507,6 +511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 ## Iterator
 | Problem Name | Difficulty |
 | ------- | ------- |
