@@ -9,57 +9,63 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-
-class BSTIterator{
-    stack<TreeNode*>myStack;
-    // reverse -> true -> before
-    // reverse -> false -> next
-    bool reverse=true;
-
-public:
-    BSTIterator(TreeNode* root,bool isReverse){
-        reverse=isReverse;
-        pushAll(root);
-    }
-
-    bool hasNext(){
-        return !myStack.empty();
-    }
-
-    int next(){
-        TreeNode* temp=myStack.top();
-        myStack.pop();
-        if(reverse==false) pushAll(temp->right);
-        else pushAll(temp->left);
-        return temp->val;
-    }
-
+class BSTIterator {
 private:
-    void pushAll(TreeNode* node){
-        while(node){
-            myStack.push(node);
-            if(reverse==true) node=node->right;
-            else node=node->left;
+    stack<TreeNode*>st;
+    bool isReverse;
+    void pushNodes(TreeNode*&node){
+        if(!node) return;
+        TreeNode*curr=node;
+        if(!isReverse){
+            while(curr){
+                st.push(curr);
+                curr=curr->left;
+            }
         }
+        else{
+            while(curr){
+                st.push(curr);
+                curr=curr->right;
+            }
+        }
+    }
+public:
+    BSTIterator(TreeNode* root,bool Rev) {
+        isReverse=Rev;
+        pushNodes(root);
+    }
+    
+    int next() {
+        TreeNode* node=st.top();
+        st.pop();
+        if(isReverse) pushNodes(node->left);
+        else pushNodes(node->right);
+        return node->val;
+    }
+    
+    bool hasNext() {
+        return st.size()!=0; 
     }
 };
 
 class Solution {
 public:
     bool findTarget(TreeNode* root, int k) {
-        if(root==NULL) return false;
-
-        // next -> smallest
-        BSTIterator l(root,false);
-        // before -> largest
-        BSTIterator r(root,true);
-
-        int i=l.next();
-        int j=r.next();
+        BSTIterator* left=new BSTIterator(root,false);
+        BSTIterator* right=new BSTIterator(root,true);
+        int i=left->next();
+        int j=right->next();
         while(i<j){
-            if(i+j==k) return true;
-            else if(i+j<k) i=l.next();
-            else j=r.next();
+            int sum=i+j;
+            if(sum==k) return true;
+            else if(sum<k){
+                if(left->hasNext()) i=left->next();
+                else return false;
+            }
+            else{
+                if(right->hasNext()) j=right->next();
+                else return false;
+            }
         }
         return false;
     }
