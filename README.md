@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0042-trapping-rain-water](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0042-trapping-rain-water/) | Hard |
 | [0044-wildcard-matching](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0044-wildcard-matching/) | Hard |
+| [0045-jump-game-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0045-jump-game-ii/) | Medium |
 | [0053-maximum-subarray](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0062-unique-paths/) | Medium |
 | [0064-minimum-path-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0064-minimum-path-sum/) | Medium |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0042-trapping-rain-water](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0042-trapping-rain-water/) | Hard |
+| [0045-jump-game-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0045-jump-game-ii/) | Medium |
 | [0048-rotate-image](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0048-rotate-image/) | Medium |
 | [0053-maximum-subarray](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0054-spiral-matrix/) | Medium |
@@ -379,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0044-wildcard-matching](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0044-wildcard-matching/) | Hard |
+| [0045-jump-game-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0045-jump-game-ii/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0402-remove-k-digits](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0402-remove-k-digits/) | Medium |
 | [0410-split-array-largest-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0410-split-array-largest-sum/) | Hard |
