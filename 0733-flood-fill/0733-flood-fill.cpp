@@ -1,26 +1,27 @@
 class Solution {
-public:
-    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        int m=image.size();
-        int n=image[0].size();
-        int iniColor=image[sr][sc];
-        // copy of given data
-        vector<vector<int>> ans=image;
-
-        int drow[]={0,-1,0,1};
-        int dcol[]={-1,0,1,0};
-        dfs(sr,sc,ans,iniColor,image,color,drow,dcol,m,n);
-        return ans;
-    }
-
-    void dfs(int r,int c,vector<vector<int>>&ans,int iniColor,vector<vector<int>>&image,int newColor,int drow[],int dcol[],int m,int n){
-        ans[r][c]=newColor;
+private:
+    void dfs(int r,int c,vector<vector<int>>&copy,int newColor,vector<int>&drow,vector<int>&dcol,int iniColor,vector<vector<int>>& image){
+        copy[r][c]=newColor;
         for(int i=0;i<4;i++){
-            int nrow=r+drow[i];
-            int ncol=c+dcol[i];
-            if(nrow>=0 && nrow<m && ncol>=0 && ncol<n && image[nrow][ncol]==iniColor && ans[nrow][ncol]!=newColor){
-                dfs(nrow,ncol,ans,iniColor,image,newColor,drow,dcol,m,n);
+            int nr=r+drow[i];
+            int nc=c+dcol[i];
+            if(nr>=0 && nr<copy.size() && nc>=0 && nc<copy[0].size() && image[nr][nc]==iniColor && copy[nr][nc]!=newColor){
+                dfs(nr,nc,copy,newColor,drow,dcol,iniColor,image);
             }
         }
+    }
+public:
+    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
+        vector<vector<int>>copy(image.size(),vector<int>(image[0].size()));
+        for(int i=0;i<image.size();i++){
+            for(int j=0;j<image[0].size();j++){
+                copy[i][j]=image[i][j];
+            }
+        }
+        vector<int> drow={-1,0,1,0};
+        vector<int> dcol={0,1,0,-1};
+        int iniColor=image[sr][sc];
+        dfs(sr,sc,copy,color,drow,dcol,iniColor,image);
+        return copy;
     }
 };
