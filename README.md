@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0008-string-to-integer-atoi/) | Medium |
 | [0013-roman-to-integer](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0013-roman-to-integer/) | Easy |
 | [0014-longest-common-prefix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0014-longest-common-prefix/) | Easy |
+| [0022-generate-parentheses](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0022-generate-parentheses/) | Medium |
 | [0044-wildcard-matching](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0044-wildcard-matching/) | Hard |
 | [0072-edit-distance](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0072-edit-distance/) | Medium |
 | [0115-distinct-subsequences](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0115-distinct-subsequences/) | Hard |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0005-longest-palindromic-substring/) | Medium |
+| [0022-generate-parentheses](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0022-generate-parentheses/) | Medium |
 | [0042-trapping-rain-water](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0042-trapping-rain-water/) | Hard |
 | [0044-wildcard-matching](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0044-wildcard-matching/) | Hard |
 | [0045-jump-game-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0045-jump-game-ii/) | Medium |
@@ -425,6 +427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0022-generate-parentheses/) | Medium |
 | [0494-target-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0494-target-sum/) | Medium |
 ## Binary Indexed Tree
 | Problem Name | Difficulty |
