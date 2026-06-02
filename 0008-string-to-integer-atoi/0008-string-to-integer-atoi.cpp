@@ -3,21 +3,31 @@ public:
     int myAtoi(string s) {
         int n=s.size();
         int i=0;
-        while(i<n && s[i]==' ') i++;
+        while(i<n && s[i]==' ')
+            i++;
+        long long ans=0;
         int sign=1;
-        if(s[i]=='+' || s[i]=='-'){
+        if(i<n && (s[i]=='+' || s[i]=='-')){
             if(s[i]=='-') sign=-1;
             i++;
         }
-        long long ans=0;
-        while(i<n && isdigit(s[i])){
-            int digit=s[i]-'0';
-            ans=ans*10+digit;
-            if(sign*ans<=INT_MIN) return INT_MIN;
-            if(sign*ans>=INT_MAX) return INT_MAX;
-            i++;
+        while(i<n && s[i]-'0'>=0 && s[i]-'0'<=9){
+            long long temp=(long long)ans*10;
+            long long num=temp+s[i]-'0';
+            if(num*sign<INT_MIN) {
+                ans=INT_MIN;
+                return ans;
+            }
+            else if(sign*num>INT_MAX){
+                ans=INT_MAX;
+                return ans;
+            }
+            else{
+                ans=ans*10;
+                ans+=s[i]-'0';
+                i++;
+            }
         }
-        ans=ans*sign;
-        return ans;
+        return sign*ans;
     }
 };
