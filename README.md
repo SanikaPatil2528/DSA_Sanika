@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0064-minimum-path-sum/) | Medium |
 | [0066-plus-one](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0075-sort-colors) |
+| [0090-subsets-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0090-subsets-ii/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0118-pascals-triangle](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0118-pascals-triangle/) | Easy |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0090-subsets-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0090-subsets-ii/) | Medium |
 | [0136-single-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0222-count-complete-tree-nodes/) | Easy |
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
@@ -430,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0022-generate-parentheses/) | Medium |
 | [0040-combination-sum-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0040-combination-sum-ii/) | Medium |
+| [0090-subsets-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0090-subsets-ii/) | Medium |
 | [0494-target-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0494-target-sum/) | Medium |
 ## Binary Indexed Tree
 | Problem Name | Difficulty |
