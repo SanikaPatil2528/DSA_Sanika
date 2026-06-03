@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0494-target-sum/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0518-coin-change-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0518-coin-change-ii/) | Medium |
+| [0542-01-matrix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0542-01-matrix/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0493-reverse-pairs/) | Hard |
 | [0494-target-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0494-target-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0518-coin-change-ii/) | Medium |
+| [0542-01-matrix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0542-01-matrix/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
@@ -376,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
+| [0542-01-matrix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0547-number-of-provinces/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
@@ -394,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0064-minimum-path-sum/) | Medium |
 | [0079-word-search](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0079-word-search/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
+| [0542-01-matrix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0542-01-matrix/) | Medium |
 | [0733-flood-fill](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0733-flood-fill/) | Easy |
 | [0827-making-a-large-island](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0827-making-a-large-island/) | Hard |
 | [0994-rotting-oranges](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0994-rotting-oranges/) | Medium |
