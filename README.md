@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0213-house-robber-ii/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
+| [0260-single-number-iii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0260-single-number-iii/) | Medium |
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0283-move-zeroes/) | Easy |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
@@ -294,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0090-subsets-ii/) | Medium |
 | [0136-single-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0222-count-complete-tree-nodes/) | Easy |
+| [0260-single-number-iii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0260-single-number-iii/) | Medium |
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
 ## Sorting
 | Problem Name | Difficulty |
