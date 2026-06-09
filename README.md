@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [1020-number-of-enclaves](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1020-number-of-enclaves/) | Medium |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1559-detect-cycles-in-2d-grid](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
@@ -321,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 | [0846-hand-of-straights](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0846-hand-of-straights/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
@@ -446,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0846-hand-of-straights](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0846-hand-of-straights/) | Medium |
 | [0860-lemonade-change](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0860-lemonade-change/) | Easy |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
 | [1903-largest-odd-number-in-string](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1903-largest-odd-number-in-string/) | Easy |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
