@@ -196,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0733-flood-fill/) | Easy |
 | [0735-asteroid-collision](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0735-asteroid-collision/) | Medium |
 | [0827-making-a-large-island](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0827-making-a-large-island/) | Hard |
+| [0846-hand-of-straights](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0846-hand-of-straights/) | Medium |
 | [0860-lemonade-change](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0860-lemonade-change/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0907-sum-of-subarray-minimums/) | Medium |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
+| [0846-hand-of-straights](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0846-hand-of-straights/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
@@ -317,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0455-assign-cookies](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0455-assign-cookies/) | Easy |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
+| [0846-hand-of-straights](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0846-hand-of-straights/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
@@ -441,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0455-assign-cookies/) | Easy |
 | [0678-valid-parenthesis-string](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
+| [0846-hand-of-straights](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0846-hand-of-straights/) | Medium |
 | [0860-lemonade-change](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0860-lemonade-change/) | Easy |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
 | [1903-largest-odd-number-in-string](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1903-largest-odd-number-in-string/) | Easy |
