@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0188-best-time-to-buy-and-sell-stock-iv/) | Hard |
 | [0189-rotate-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0198-house-robber/) | Medium |
+| [0200-number-of-islands](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0200-number-of-islands/) | Medium |
 | [0204-count-primes](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0204-count-primes/) | Medium |
 | [0213-house-robber-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0213-house-robber-ii/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
@@ -365,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0130-surrounded-regions/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0200-number-of-islands](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0200-number-of-islands/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
@@ -386,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0130-surrounded-regions/) | Medium |
+| [0200-number-of-islands](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0200-number-of-islands/) | Medium |
 | [0547-number-of-provinces](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0547-number-of-provinces/) | Medium |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 | [0827-making-a-large-island](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0827-making-a-large-island/) | Hard |
@@ -406,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0130-surrounded-regions](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0130-surrounded-regions/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0200-number-of-islands](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0200-number-of-islands/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0542-01-matrix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0547-number-of-provinces/) | Medium |
@@ -427,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0064-minimum-path-sum/) | Medium |
 | [0079-word-search](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0079-word-search/) | Medium |
 | [0130-surrounded-regions](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0130-surrounded-regions/) | Medium |
+| [0200-number-of-islands](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0200-number-of-islands/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0542-01-matrix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0542-01-matrix/) | Medium |
 | [0733-flood-fill](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0733-flood-fill/) | Easy |
