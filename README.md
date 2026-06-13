@@ -373,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0200-number-of-islands](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0210-course-schedule-ii/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
@@ -407,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0210-course-schedule-ii/) | Medium |
 | [0547-number-of-provinces](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0547-number-of-provinces/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
@@ -421,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0200-number-of-islands](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0210-course-schedule-ii/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0542-01-matrix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0547-number-of-provinces/) | Medium |
@@ -670,4 +673,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0210-course-schedule-ii/) | Medium |
 <!---LeetCode Topics End-->
