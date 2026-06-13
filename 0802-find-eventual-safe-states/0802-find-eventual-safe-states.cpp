@@ -1,44 +1,36 @@
 class Solution {
+private:
+    bool dfsCheck(int node,vector<vector<int>>&graph,vector<int>&vis,vector<int>&pathVis,vector<int>&check){
+        vis[node]=1;
+        pathVis[node]=1;
+        for(auto it:graph[node]){
+            if(!vis[it]){
+                if(dfsCheck(it,graph,vis,pathVis,check)==true) return true;
+            }
+            else if(pathVis[it]){
+                return true;
+            }
+        }
+        check[node]=1; // if there had been a cycle ,vo pehle hi upar break hoke true return kr deta
+        pathVis[node]=0;
+        return false;
+    }
 public:
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
-        // 1. reverse graph
-        vector<vector<int>>revAdj(graph.size());
-        vector<int>indegree(graph.size(),0);
+        int n=graph.size();
 
-        for(int i=0;i<graph.size();i++){
-            for(auto it:graph[i]){
-                revAdj[it].push_back(i);
-                indegree[i]++;
+        vector<int>vis(n,0);
+        vector<int>pathVis(n,0);
+        vector<int>ans;
+        vector<int>check(n,0);
+        for(int i=0;i<n;i++){
+            if(!vis[i]){
+                dfsCheck(i,graph,vis,pathVis,check);
             }
         }
+        for(int i=0;i<n;i++)
+            if(check[i]==1) ans.push_back(i);
 
-        vector<int>safe_nodes;
-        queue<int>q;
-
-        // 2.terminal node --> safe
-        for(int i=0;i<indegree.size();i++){
-            if (indegree[i]==0){
-                safe_nodes.push_back(i);
-                q.push(i);
-            }
-        }
-
-        // 3.topo sort 
-        // we check all paths possible from terminal to nodes which would be safe node
-        while(!q.empty()){
-            int node=q.front();
-            q.pop();
-
-            for(auto it: revAdj[node]){
-                indegree[it]--;
-                if(indegree[it]==0){
-                    q.push(it);
-                    safe_nodes.push_back(it);
-                }
-            }
-        }
-
-        sort(safe_nodes.begin(),safe_nodes.end());
-        return safe_nodes;
+        return ans;
     }
 };
