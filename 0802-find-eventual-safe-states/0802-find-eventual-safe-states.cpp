@@ -1,36 +1,33 @@
 class Solution {
-private:
-    bool dfsCheck(int node,vector<vector<int>>&graph,vector<int>&vis,vector<int>&pathVis,vector<int>&check){
-        vis[node]=1;
-        pathVis[node]=1;
-        for(auto it:graph[node]){
-            if(!vis[it]){
-                if(dfsCheck(it,graph,vis,pathVis,check)==true) return true;
-            }
-            else if(pathVis[it]){
-                return true;
-            }
-        }
-        check[node]=1; // if there had been a cycle ,vo pehle hi upar break hoke true return kr deta
-        pathVis[node]=0;
-        return false;
-    }
 public:
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
         int n=graph.size();
+        vector<int>indegree(n,0);
 
-        vector<int>vis(n,0);
-        vector<int>pathVis(n,0);
-        vector<int>ans;
-        vector<int>check(n,0);
+        // reversed graph
+        vector<vector<int>>adj(n);
         for(int i=0;i<n;i++){
-            if(!vis[i]){
-                dfsCheck(i,graph,vis,pathVis,check);
+            for(int j=0;j<graph[i].size();j++){
+                adj[graph[i][j]].push_back(i);
+                indegree[i]++;
             }
         }
-        for(int i=0;i<n;i++)
-            if(check[i]==1) ans.push_back(i);
 
-        return ans;
+        queue<int>q;
+        for(int i=0;i<n;i++)
+            if(indegree[i]==0) q.push(i);
+        
+        vector<int>safeNodes;
+        while(!q.empty()){
+            int node=q.front();
+            q.pop();
+            safeNodes.push_back(node);
+            for(auto it:adj[node]){
+                indegree[it]--;
+                if(indegree[it]==0) q.push(it);
+            }
+        }
+        sort(safeNodes.begin(),safeNodes.end());
+        return safeNodes;
     }
 };
