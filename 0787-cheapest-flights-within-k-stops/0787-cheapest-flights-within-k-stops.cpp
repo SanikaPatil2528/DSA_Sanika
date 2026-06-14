@@ -1,33 +1,32 @@
 class Solution {
 public:
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-        vector<vector<pair<int,int>>> adj(n);
-        // node-> (to_node,cost)
-        for (auto it:flights){
-            adj[it[0]].push_back({it[1],it[2]});
+        vector<vector<pair<int,int>>>adj(n);
+        for(auto flight:flights){
+            adj[flight[0]].push_back({flight[1],flight[2]});
         }
-
-        vector<int>distance(n,1e9);
-        // distance,(node,stops)
-        queue<pair<int,pair<int,int>>> q;
-
+        // {stops,{node,dist}}
+        queue<pair<int,pair<int,int>>>q;
         q.push({0,{src,0}});
+        vector<int>dis(n,1e9);
+        dis[src]=0;
+
         while(!q.empty()){
             auto it=q.front();
             q.pop();
-            int d=it.first;
+            int stops=it.first;
             int node=it.second.first;
-            int stops=it.second.second;
-            if (stops > k) continue;
-
-            for(auto neigh: adj[node]){
-                if (distance[neigh.first]>d+neigh.second){
-                    distance[neigh.first]=d+neigh.second;
-                    q.push({distance[neigh.first],{neigh.first,stops+1}});
+            int d=it.second.second;
+            if(stops==k+1) continue;
+            for(auto [v,cost]:adj[node]){
+                if(d+cost<dis[v] && stops<=k){
+                    dis[v]=d+cost;
+                    q.push({stops+1,{v,dis[v]}});
                 }
             }
         }
-        if (distance[dst]!=1e9) return distance[dst];
-        return -1;
+
+        int ans=dis[dst]==1e9?-1:dis[dst];
+        return ans;
     }
 };
