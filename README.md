@@ -384,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 | [0733-flood-fill](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0733-flood-fill/) | Easy |
+| [0743-network-delay-time](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0743-network-delay-time/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0802-find-eventual-safe-states/) | Medium |
@@ -413,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0210-course-schedule-ii/) | Medium |
 | [0547-number-of-provinces](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0547-number-of-provinces/) | Medium |
+| [0743-network-delay-time](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0743-network-delay-time/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0802-find-eventual-safe-states/) | Medium |
@@ -436,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 | [0733-flood-fill](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0733-flood-fill/) | Easy |
+| [0743-network-delay-time](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0743-network-delay-time/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0802-find-eventual-safe-states/) | Medium |
@@ -616,6 +619,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [0743-network-delay-time](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
@@ -686,5 +690,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0743-network-delay-time](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 <!---LeetCode Topics End-->
