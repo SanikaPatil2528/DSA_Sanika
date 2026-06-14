@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -420,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0802-find-eventual-safe-states](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1192-critical-connections-in-a-network](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1192-critical-connections-in-a-network/) | Hard |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -687,9 +689,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0210-course-schedule-ii/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 <!---LeetCode Topics End-->
