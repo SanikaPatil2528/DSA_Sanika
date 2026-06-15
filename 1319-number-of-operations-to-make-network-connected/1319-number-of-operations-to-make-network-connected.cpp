@@ -1,50 +1,43 @@
-class DisjointSet{
-public:
-    vector<int>size,parent;
-
-    DisjointSet(int n){
-        size.resize(n,1);
-        parent.resize(n);
-        for(int i=0;i<n;i++)
-            parent[i]=i;
-    }
-    int findUParent(int node){
-        if(node==parent[node]) return node;
-        return parent[node]=findUParent(parent[node]);
-    }
-    void UnionBySize(int u,int v){
-        int ult_u=findUParent(u);
-        int ult_v=findUParent(v);
-        if(ult_u==ult_v) return;
-        if(size[ult_u]<size[ult_v]){
-            parent[ult_u]=ult_v;
-            size[ult_v]+=size[ult_u];
-        }
-        else{
-            parent[ult_v]=ult_u;
-            size[ult_u]+=size[ult_v];
-        }
-    }
-};
-
 class Solution {
+private:
+    int findUParent(vector<int>&parent,int node){
+        if(node==parent[node]) return node;
+        return parent[node]=findUParent(parent,parent[node]);
+    }
+    void unionBySize(int u,int v,vector<int>&parent,vector<int>&size){
+        int up_u=findUParent(parent,u);
+        int up_v=findUParent(parent,v);
+        if(up_u==up_v) return;
+        if(size[up_u]<size[up_v]){
+            parent[up_u]=up_v;
+            size[up_v]+=size[up_u];
+        }
+        else if(size[up_u]>=size[up_v]){
+            parent[up_v]=up_u;
+            size[up_u]+=size[up_v];
+        }
+    }
 public:
     int makeConnected(int n, vector<vector<int>>& connections) {
-        // connections-->edges
-        DisjointSet ds(n);
+        vector<int>size(n,1);
+        vector<int>parent(n);
+        for(int i=0;i<n;i++)
+            parent[i]=i;
+        
         int extraEdges=0;
-        for(auto edge:connections){
-            int u=edge[0];
-            int v=edge[1];
-            if (ds.findUParent(u)==ds.findUParent(v)) extraEdges++;
-            else ds.UnionBySize(u,v);
+        int components=0;
+
+        for(auto connection:connections){
+            int u=connection[0];
+            int v=connection[1];
+            if(findUParent(parent,u)==findUParent(parent,v)) extraEdges++;
+            unionBySize(u,v,parent,size);
         }
 
-        int connected_components=0;
         for(int i=0;i<n;i++)
-            if (ds.parent[i]==i) connected_components++;
-
-        if (extraEdges>=connected_components-1) return connected_components-1;
+            if(parent[i]==i) components++;
+        
+        if(extraEdges>=components-1) return components-1;
         return -1;
     }
 };
