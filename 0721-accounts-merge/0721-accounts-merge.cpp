@@ -1,68 +1,52 @@
-class DisjointSet{
-public:
-    vector<int>size,parent;
-
-    DisjointSet(int n){
-        size.resize(n,1);
-        parent.resize(n);
-        for(int i=0;i<n;i++)
-            parent[i]=i;
+class Solution {
+private:
+    int findUPar(int node,vector<int>&par){
+        if(par[node]==node) return node;
+        return par[node]=findUPar(par[node],par);
     }
-    int findUParent(int node){
-        if(node==parent[node]) return node;
-        return parent[node]=findUParent(parent[node]);
-    }
-    void UnionBySize(int u,int v){
-        int ult_u=findUParent(u);
-        int ult_v=findUParent(v);
-        if(ult_u==ult_v) return;
-        if(size[ult_u]<size[ult_v]){
-            parent[ult_u]=ult_v;
-            size[ult_v]+=size[ult_u];
+    void unionBySize(int u,int v,vector<int>&size,vector<int>&par){
+        int up_u=findUPar(u,par);
+        int up_v=findUPar(v,par);
+        if(up_u==up_v) return ;
+        if(size[up_u]<size[up_v]){
+            par[up_u]=up_v;
+            size[up_v]+=size[up_u];
         }
         else{
-            parent[ult_v]=ult_u;
-            size[ult_u]+=size[ult_v];
+            par[up_v]=up_u;
+            size[up_u]+=size[up_v];
         }
     }
-};
-
-class Solution {
 public:
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
         int n=accounts.size();
-        unordered_map<string,int> mapMailNode;
-        DisjointSet ds(n);
-
-        // mapping mails to node numbers
+        vector<int>size(n,1);
+        vector<int>par(n);
+        for(int i=0;i<n;i++)
+            par[i]=i;
+        
+        unordered_map<string,int> mailMap;
         for(int i=0;i<accounts.size();i++){
             for(int j=1;j<accounts[i].size();j++){
-                string mail=accounts[i][j];
-                if(mapMailNode.find(mail)==mapMailNode.end()) mapMailNode[mail]=i;
-                else ds.UnionBySize(i ,mapMailNode[mail]);
+                if(mailMap.find(accounts[i][j])==mailMap.end()) mailMap[accounts[i][j]]=i;
+                else unionBySize(mailMap[accounts[i][j]],i,size,par);
             }
         }
 
-        // making list of mails as per ultimate parent
-        vector<vector<string>> mergedMail(n);
-        for(auto it:mapMailNode){
-            string mail=it.first;
-            int node=it.second;
-            mergedMail[ds.findUParent(node)].push_back(mail);
+        vector<vector<string>>mergedMails(n);
+        for(auto it: mailMap){
+            mergedMails[findUPar(it.second,par)].push_back(it.first);
         }
 
-        // final ans by adding names and sorting mails
-        vector<vector<string>> ans;
-        for(int i=0;i<n;i++){
-            if (mergedMail[i].size()==0) continue;
-            sort(mergedMail[i].begin(),mergedMail[i].end());
+        vector<vector<string>>ans;
+        for(int i=0;i<mergedMails.size();i++){
+            if(mergedMails[i].size()==0) continue;
+            sort(mergedMails[i].begin(),mergedMails[i].end());
             vector<string>temp;
             temp.push_back(accounts[i][0]);
-            for(auto it:mergedMail[i])
-                temp.push_back(it);
+            temp.insert(temp.end(),mergedMails[i].begin(),mergedMails[i].end());
             ans.push_back(temp);
         }
-
         return ans;
     }
 };
