@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0054-spiral-matrix/) | Medium |
 | [0064-minimum-path-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0064-minimum-path-sum/) | Medium |
 | [0066-plus-one](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0066-plus-one) |
+| [0073-set-matrix-zeroes](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0075-sort-colors](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0090-subsets-ii/) | Medium |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0001-two-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0013-roman-to-integer/) | Easy |
+| [0073-set-matrix-zeroes](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0138-copy-list-with-random-pointer/) | Medium |
@@ -458,6 +460,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0054-spiral-matrix/) | Medium |
 | [0064-minimum-path-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0064-minimum-path-sum/) | Medium |
+| [0073-set-matrix-zeroes](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0079-word-search](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0079-word-search/) | Medium |
 | [0130-surrounded-regions](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0200-number-of-islands/) | Medium |
