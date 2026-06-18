@@ -158,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0048-rotate-image/) | Medium |
 | [0053-maximum-subarray](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0054-spiral-matrix/) | Medium |
+| [0056-merge-intervals](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0056-merge-intervals/) | Medium |
 | [0064-minimum-path-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0064-minimum-path-sum/) | Medium |
 | [0066-plus-one](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0073-set-matrix-zeroes/) | Medium |
@@ -327,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0018-4sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0018-4sum/) | Medium |
+| [0056-merge-intervals](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0056-merge-intervals/) | Medium |
 | [0075-sort-colors](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0148-sort-list/) | Medium |
 | [0169-majority-element](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0169-majority-element) |
