@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0368-largest-divisible-subset/) | Medium |
 | [1013-fibonacci-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/1013-fibonacci-number) |
+| [1344-angle-between-hands-of-a-clock](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 | [1903-largest-odd-number-in-string](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1903-largest-odd-number-in-string/) | Easy |
 | [1922-count-good-numbers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1922-count-good-numbers/) | Medium |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
