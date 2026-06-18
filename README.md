@@ -203,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0518-coin-change-ii/) | Medium |
 | [0542-01-matrix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0542-01-matrix/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [0704-binary-search](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0704-binary-search/) | Easy |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
 | [0733-flood-fill](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0733-flood-fill/) | Easy |
@@ -313,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
 | [0410-split-array-largest-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0493-reverse-pairs](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0493-reverse-pairs/) | Hard |
+| [0704-binary-search](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0704-binary-search/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0875-koko-eating-bananas/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [1901-find-a-peak-element-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1901-find-a-peak-element-ii/) | Medium |
