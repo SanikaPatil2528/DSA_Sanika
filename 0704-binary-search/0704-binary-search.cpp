@@ -1,15 +1,15 @@
 class Solution {
 private:
-    int binarySearch(vector<int>&nums,int low,int high,int target){
+    int binarySearch(int k,int low,int high,vector<int>&nums){
         if(low>high) return -1;
         int mid=low+(high-low)/2;
-        if(nums[mid]==target) return mid;
-        else if(nums[mid]>target) return binarySearch(nums,low,mid-1,target);
-        else return binarySearch(nums,mid+1,high,target);
+        if(nums[mid]==k) return mid;
+        else if(nums[mid]<k) return binarySearch(k,mid+1,high,nums);
+        else return binarySearch(k,low,mid-1,nums);
     }
 public:
     int search(vector<int>& nums, int target) {
-        int ans=binarySearch(nums,0,nums.size()-1,target);
+        int ans=binarySearch(target,0,nums.size()-1,nums);
         return ans;
     }
 };
