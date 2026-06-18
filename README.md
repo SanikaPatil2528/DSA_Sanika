@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0204-count-primes/) | Medium |
 | [0213-house-robber-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0213-house-robber-ii/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+| [0229-majority-element-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0229-majority-element-ii/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0260-single-number-iii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0260-single-number-iii/) | Medium |
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0169-majority-element](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0205-isomorphic-strings/) | Easy |
+| [0229-majority-element-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0229-majority-element-ii/) | Medium |
 | [0242-valid-anagram](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0242-valid-anagram/) | Easy |
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -329,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0148-sort-list/) | Medium |
 | [0169-majority-element](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+| [0229-majority-element-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0229-majority-element-ii/) | Medium |
 | [0242-valid-anagram](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0242-valid-anagram/) | Easy |
 | [0268-missing-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -361,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
