@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0045-jump-game-ii/) | Medium |
 | [0053-maximum-subarray](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0062-unique-paths/) | Medium |
+| [0063-unique-paths-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0064-minimum-path-sum/) | Medium |
 | [0072-edit-distance](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0072-edit-distance/) | Medium |
 | [0115-distinct-subsequences](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0115-distinct-subsequences/) | Hard |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0054-spiral-matrix/) | Medium |
 | [0056-merge-intervals](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0056-merge-intervals/) | Medium |
+| [0063-unique-paths-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0064-minimum-path-sum/) | Medium |
 | [0066-plus-one](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0073-set-matrix-zeroes/) | Medium |
@@ -472,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0054-spiral-matrix/) | Medium |
+| [0063-unique-paths-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0064-minimum-path-sum/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0079-word-search](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0079-word-search/) | Medium |
