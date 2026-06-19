@@ -221,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1559-detect-cycles-in-2d-grid](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
+| [1732-find-the-highest-altitude](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1901-find-a-peak-element-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1901-find-a-peak-element-ii/) | Medium |
 | [2104-sum-of-subarray-ranges](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/2104-sum-of-subarray-ranges/) | Medium |
@@ -514,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0560-subarray-sum-equals-k](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0930-binary-subarrays-with-sum/) | Medium |
+| [1732-find-the-highest-altitude](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [2574-left-and-right-sum-differences](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 ## Backtracking
