@@ -18,18 +18,37 @@ public:
         // return ans;
 
         // TABULATION
-        vector<vector<int>>dp(m,vector<int>(n));
-        dp[0][0]=grid[0][0];
-        for(int r=0;r<m;r++){
-            for(int c=0;c<n;c++){
-                if(r==0 && c==0) continue;
+        // vector<vector<int>>dp(m,vector<int>(n));
+        // dp[0][0]=grid[0][0];
+        // for(int r=0;r<m;r++){
+        //     for(int c=0;c<n;c++){
+        //         if(r==0 && c==0) continue;
 
+        //         int up=1e9,left=1e9;
+        //         if(r>0) up=dp[r-1][c];
+        //         if(c>0) left=dp[r][c-1];
+        //         dp[r][c]=grid[r][c]+min(up,left);
+        //     }
+        // }
+        // return dp[m-1][n-1];
+
+
+        // SPACE OPTIMIZATION
+        vector<int>dp(n,1e9);
+        for(int r=0;r<m;r++){
+            vector<int>curr(n,1e9);
+            for(int c=0;c<n;c++){
+                if(r==0 && c==0){
+                    curr[c]=grid[0][0];
+                    continue;
+                } 
                 int up=1e9,left=1e9;
-                if(r>0) up=dp[r-1][c];
-                if(c>0) left=dp[r][c-1];
-                dp[r][c]=grid[r][c]+min(up,left);
+                if(r>0) up=dp[c];
+                if(c>0) left=curr[c-1];
+                curr[c]=grid[r][c]+min(up,left);
             }
+            dp=curr;
         }
-        return dp[m-1][n-1];
+        return dp[n-1];
     }
 };
