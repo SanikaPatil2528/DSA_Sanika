@@ -13,8 +13,23 @@ public:
     int minPathSum(vector<vector<int>>& grid) {
         int m=grid.size();
         int n=grid[0].size();
-        vector<vector<int>>dp(m,vector<int>(n,-1));
-        int ans=helper(m-1,n-1,grid,dp);
-        return ans;
+        // vector<vector<int>>dp(m,vector<int>(n,-1));
+        // int ans=helper(m-1,n-1,grid,dp);
+        // return ans;
+
+        // TABULATION
+        vector<vector<int>>dp(m,vector<int>(n));
+        dp[0][0]=grid[0][0];
+        for(int r=0;r<m;r++){
+            for(int c=0;c<n;c++){
+                if(r==0 && c==0) continue;
+
+                int up=1e9,left=1e9;
+                if(r>0) up=dp[r-1][c];
+                if(c>0) left=dp[r][c-1];
+                dp[r][c]=grid[r][c]+min(up,left);
+            }
+        }
+        return dp[m-1][n-1];
     }
 };
