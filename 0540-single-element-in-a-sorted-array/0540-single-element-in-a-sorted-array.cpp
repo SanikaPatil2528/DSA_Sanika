@@ -1,30 +1,26 @@
 class Solution {
-public:
-    int singleNonDuplicate(vector<int>& nums) {
-        if(nums.size()==1) return nums[0];
-        int low=0,high=nums.size()-1;
-        while(low<=high){
-            int mid=low+(high-low)/2;
-            if(mid==0){
-                if(nums[mid]!=nums[mid+1]) return nums[mid];
-            }
-            else if(mid==nums.size()-1){
-                if(nums[mid]!=nums[mid-1]) return nums[mid];
-            }
-            else{
-                if(nums[mid]!=nums[mid-1] && nums[mid]!=nums[mid+1]) return nums[mid];
-            }
-
-            if(mid<nums.size()-1 && nums[mid]==nums[mid+1]){
-                if(mid%2==1) high=mid-1;
-                else low=mid+1;
-                continue;
-            }
-            if(mid>0 && nums[mid]==nums[mid-1]){
-                if(mid%2==1) low=mid+1;
-                else high=mid-1;
-            }
+private:
+    int binarySearch(int low,int high,vector<int>&nums){
+        if(low>high) return -1;
+        int mid=low+(high-low)/2;
+        if(mid==0 && nums[mid]!=nums[mid+1]) return nums[mid];
+        if(mid==nums.size()-1 && nums[mid]!=nums[mid-1]) return nums[mid];
+        if(nums[mid]!=nums[mid-1] && nums[mid]!=nums[mid+1]) return nums[mid];
+        if(nums[mid]==nums[mid+1]){
+            if(mid%2==1) return binarySearch(low,mid-1,nums);
+            else return binarySearch(mid+1,high,nums);
+        }
+        else if(nums[mid]==nums[mid-1]){
+            if(mid%2==0) return binarySearch(low,mid-1,nums);
+            else return binarySearch(mid+1,high,nums);
         }
         return -1;
+    }
+public:
+    int singleNonDuplicate(vector<int>& nums) {
+        int n=nums.size();
+        if(n==1) return nums[0];
+        int ans=binarySearch(0,n-1,nums);
+        return ans;
     }
 };
