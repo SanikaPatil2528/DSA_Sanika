@@ -1,33 +1,33 @@
 class Solution {
 private:
-    int getDays(int wt,vector<int>&weights){
-        int days=0,w=0;
-        int n=weights.size();
+    long long getDays(int k,vector<int>&weights){
+        long long ans=0;
+        long long sumi=0;
         int idx=0;
-        while(idx<n){
-            while(idx<n && w+weights[idx]<=wt){
-                w+=weights[idx];
+        while(idx<weights.size()){
+            while(idx<weights.size() && weights[idx]+sumi<=k){
+                sumi+=weights[idx];
                 idx++;
             }
-            days++;
-            w=0;
+            ans++;
+            sumi=0;
         }
-        return days;
+        return ans;
     }
 public:
     int shipWithinDays(vector<int>& weights, int days) {
-        long long sum=0;
-        int maxEle=-1;
-        for(int weight:weights){
-            sum+=weight;
-            maxEle=max(maxEle,weight);
+        int sumi=0;
+        int maxi=-1e9;
+        for(int num:weights) {
+            sumi+=num;
+            maxi=max(maxi,num);
         }
-        int low=maxEle,high=sum;
+        int low=maxi,high=sumi;
         while(low<=high){
             int mid=low+(high-low)/2;
-            int daysNeeded=getDays(mid,weights);
-            if(daysNeeded>days) low=mid+1;
-            else high=mid-1;
+            long long d=getDays(mid,weights);
+            if(d<=days) high=mid-1;
+            else low=mid+1;
         }
         return low;
     }
