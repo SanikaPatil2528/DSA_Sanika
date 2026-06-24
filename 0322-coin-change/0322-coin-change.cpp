@@ -1,23 +1,22 @@
 class Solution {
 private:
-    int helper(vector<int>&coins,int idx,int target,vector<vector<int>>&dp){
-        if (idx==0){
-            if(target%coins[idx]==0) return target/coins[idx];
+    int helper(int idx,int amt,vector<int>&coins,vector<vector<int>>&dp){
+        if(idx==coins.size()){
+            if(amt==0) return 0;
             return 1e9;
         }
-        if(dp[idx][target]!=-1) return dp[idx][target];
+        if(dp[idx][amt]!=-1) return dp[idx][amt];
 
-        int notTake=0+helper(coins,idx-1,target,dp);
-        int take=INT_MAX;
-        if(target>=coins[idx]) take=1+helper(coins,idx,target-coins[idx],dp);
-        return dp[idx][target]=min(take,notTake);
+        int pick=1e9;
+        if(coins[idx]<=amt) pick=1+helper(idx,amt-coins[idx],coins,dp);
+        int notPick=0+helper(idx+1,amt,coins,dp);
+        return dp[idx][amt]=min(pick,notPick);
     }
-
 public:
     int coinChange(vector<int>& coins, int amount) {
         vector<vector<int>>dp(coins.size(),vector<int>(amount+1,-1));
-        int ans=helper(coins,coins.size()-1,amount,dp);
-        if(ans>=1e9) return -1;
+        int ans=helper(0,amount,coins,dp);
+        if(ans==1e9) return -1;
         return ans;
     }
 };
