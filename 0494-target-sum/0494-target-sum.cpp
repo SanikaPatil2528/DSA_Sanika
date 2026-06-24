@@ -1,27 +1,26 @@
 class Solution {
 private:
-    int helper(int idx,vector<int>& nums,int target,vector<vector<int>>&dp){
-        if(idx==0){
-            if(nums[idx]==0 && target==0) return 2;
-            if(target==0) return 1;
-            if(target==nums[idx]) return 1;
+    int helper(int idx,int k,vector<int>&nums,vector<vector<int>>&dp){
+        if(idx==nums.size()){
+            if(k==0) return 1;
             return 0;
         }
-        int notTake=helper(idx-1,nums,target,dp);
-        int take=0;
-        if(nums[idx]<=target) take=helper(idx-1,nums,target-nums[idx],dp);
+        if(dp[idx][k]!=-1) return dp[idx][k];
         
-        return dp[idx][target]=take+notTake;
+        int pick=0;
+        if(nums[idx]<=k) pick=helper(idx+1,k-nums[idx],nums,dp);
+        int notPick=helper(idx+1,k,nums,dp);
+        return dp[idx][k]=pick+notPick;
     }
 public:
     int findTargetSumWays(vector<int>& nums, int target) {
-        int totSum=0;
-        for(int num:nums) totSum+=num;
-        int S=(totSum-target)/2;
-        if ((totSum-target)%2!=0 || (totSum-target)<0) return 0;
-
-        vector<vector<int>> dp(nums.size(),vector<int>(S+1,-1));
-        int ans=helper(nums.size()-1,nums,S,dp);
+        int n=nums.size();
+        int sumi=0;
+        for(int num:nums) sumi+=num;
+        if((sumi+target)%2!=0) return 0;
+        if(abs(target)>sumi) return 0;
+        vector<vector<int>>dp(nums.size(),vector<int>((sumi+target)/2 + 1,-1));
+        int ans=helper(0,(sumi+target)/2,nums,dp);
         return ans;
     }
 };
