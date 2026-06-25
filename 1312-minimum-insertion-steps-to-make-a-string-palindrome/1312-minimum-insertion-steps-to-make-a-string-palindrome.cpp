@@ -1,25 +1,21 @@
 class Solution {
 private:
-    int lcs(string &s1,string &s2,int idx1,int idx2,vector<vector<int>>&dp){
-        if(idx1<0 || idx2<0) return 0;
-        if(dp[idx1][idx2]!=-1) return dp[idx1][idx2];
-
-        // match
-        if(s1[idx1]==s2[idx2])
-            return dp[idx1][idx2]= 1 + lcs(s1,s2,idx1-1,idx2-1,dp);
-        // not match
-        return dp[idx1][idx2]= 0 + max(lcs(s1,s2,idx1-1,idx2,dp), lcs(s1,s2,idx1,idx2-1,dp));
+    int helper(int i,int j,string &s1,string &s2,vector<vector<int>>&dp){
+        if(i>=s1.size() || j>=s2.size()) return 0;
+        if(dp[i][j]!=-1) return dp[i][j];
+        if(s1[i]==s2[j]) return dp[i][j]=1+helper(i+1,j+1,s1,s2,dp);
+        else return dp[i][j]=max(helper(i+1,j,s1,s2,dp),helper(i,j+1,s1,s2,dp));
+    }
+    int longestPalindromeSubseq(string s) {
+        string r=s;
+        reverse(r.begin(),r.end());
+        vector<vector<int>>dp(s.size(),vector<int>(s.size(),-1));
+        int ans=helper(0,0,s,r,dp);
+        return ans;
     }
 public:
     int minInsertions(string s) {
-        string s1=s;
-        string s2;
-        for(int i=s.size()-1;i>=0;i--)
-            s2+=s[i];
-        int n=s.size();
-        vector<vector<int>>dp(n,vector<int>(n,-1));
-        int ans=lcs(s1,s2,n-1,n-1,dp);
-        int count=s.size()-ans;
-        return count;
+        int pal=longestPalindromeSubseq(s);
+        return s.size()-pal;
     }
 };
