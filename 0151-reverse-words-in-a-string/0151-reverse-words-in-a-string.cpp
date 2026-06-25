@@ -1,18 +1,19 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        string result="";
         int n=s.size();
+        string ans="";
         int i=n-1;
         while(i>=0){
             while(i>=0 && s[i]==' ') i--;
-            if(i<0) break;
             int end=i;
             while(i>=0 && s[i]!=' ') i--;
             string word=s.substr(i+1,end-i);
-            if(!result.empty()) result+=" ";
-            result+=word;
+            ans+=word;
+            ans+=" ";
         }
-        return result;
+        while(ans[ans.size()-1]==' ')
+            ans.pop_back();
+        return ans;
     }
 };
