@@ -1,24 +1,25 @@
 class Solution {
 private:
-    int helper(vector<int>&prices,int idx,int buy,vector<vector<int>>&dp){
-        if (idx==prices.size()) return 0;
-        // allowed to buy
-        // buy, not buy
-        if(buy) {
-            if (dp[idx][1]!=-1) return dp[idx][1];
-            else return dp[idx][1]=max(-prices[idx]+helper(prices,idx+1,0,dp) , 0+helper(prices,idx+1,1,dp) );
+    int helper(int idx,int canBuy,vector<int>&prices,vector<vector<int>>&dp){
+        if(idx==prices.size()) return 0;
+        if(dp[idx][canBuy]!=-1) return dp[idx][canBuy];
+        if(canBuy){
+            // buy,not buy.... +sell -buy
+            int buy=-1*prices[idx]+helper(idx+1,!canBuy,prices,dp);
+            int notBuy=helper(idx+1,canBuy,prices,dp);
+            return dp[idx][canBuy]=max(buy,notBuy);
         }
-        // not allowed
-        // sell, not sell
         else{
-            if (dp[idx][0]!=-1) return dp[idx][0];
-            else return dp[idx][0]=max(prices[idx]+helper(prices,idx+1,1,dp) , 0+helper(prices,idx+1,0,dp) );
+            // sell,not sell
+            int sell=prices[idx]+helper(idx+1,!canBuy,prices,dp);
+            int notSell=helper(idx+1,canBuy,prices,dp);
+            return dp[idx][canBuy]=max(sell,notSell);
         }
     }
 public:
     int maxProfit(vector<int>& prices) {
         vector<vector<int>>dp(prices.size(),vector<int>(2,-1));
-        int ans=helper(prices,0,1,dp);
+        int ans=helper(0,1,prices,dp);
         return ans;
     }
 };
