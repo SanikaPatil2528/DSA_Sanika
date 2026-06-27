@@ -9,22 +9,17 @@
  * };
  */
 class Solution {
-private:
-    void helper(ListNode*&head,ListNode*&first,ListNode*second){
-        if(first==head) first->next=nullptr;
-        if(second==nullptr){
-            head=first;
-            return;
-        };
-        ListNode*temp=second->next;
-        second->next=first;
-        helper(head,second,temp);
-    }
 public:
     ListNode* reverseList(ListNode* head) {
-        if(head==nullptr || head->next==nullptr) return head;
-        ListNode* first=head,*second=head->next;
-        helper(head,first,second);
-        return head;
+        if(!head) return head;
+        ListNode *first=NULL,*sec=head,*third=head->next;
+        while(third){
+            sec->next=first;
+            first=sec;
+            sec=third;
+            third=third->next;
+        }
+        sec->next=first;
+        return sec;
     }
 };
