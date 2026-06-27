@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0518-coin-change-ii/) | Medium |
 | [0542-01-matrix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0542-01-matrix/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0583-delete-operation-for-two-strings/) | Medium |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0673-number-of-longest-increasing-subsequence/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0542-01-matrix](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0542-01-matrix/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0673-number-of-longest-increasing-subsequence/) | Medium |
 | [0704-binary-search](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0704-binary-search/) | Easy |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0721-accounts-merge](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0721-accounts-merge/) | Medium |
@@ -548,10 +550,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0493-reverse-pairs](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0493-reverse-pairs/) | Hard |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0673-number-of-longest-increasing-subsequence/) | Medium |
 ## Segment Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0493-reverse-pairs](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0493-reverse-pairs/) | Hard |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0673-number-of-longest-increasing-subsequence/) | Medium |
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
