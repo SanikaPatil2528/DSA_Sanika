@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0796-rotate-string](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0796-rotate-string/) | Easy |
 | [1021-remove-outermost-parentheses](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1092-shortest-common-supersequence](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1092-shortest-common-supersequence/) | Hard |
+| [1106-parsing-a-boolean-expression](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1106-parsing-a-boolean-expression/) | Hard |
 | [1189-maximum-number-of-balloons](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0234-palindrome-linked-list/) | Easy |
 | [1013-fibonacci-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/1013-fibonacci-number) |
+| [1106-parsing-a-boolean-expression](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1106-parsing-a-boolean-expression/) | Hard |
 | [1922-count-good-numbers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1922-count-good-numbers/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
@@ -587,6 +589,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-sum-of-subarray-minimums](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1021-remove-outermost-parentheses/) | Easy |
+| [1106-parsing-a-boolean-expression](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1106-parsing-a-boolean-expression/) | Hard |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 | [2104-sum-of-subarray-ranges](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/2104-sum-of-subarray-ranges/) | Medium |
 ## Tree
