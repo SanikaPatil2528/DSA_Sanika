@@ -11,49 +11,36 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode *temp1=l1;
-        ListNode *temp2=l2;
-        int carry=0,data;
-        ListNode *head=nullptr,*tail=nullptr;
-        while(temp1 && temp2)
-        {
-            data=temp1->val+temp2->val+carry;
-            carry=data/10;
-            data=data%10;
-            if(head==nullptr)
-            {
-                head=new ListNode();
-                head->val=data;
-                tail=head;
-            }
-            else
-            {
-                tail->next=new ListNode();
-                tail->next->val=data;
-                tail=tail->next;
-            }
-            temp1=temp1->next;
-            temp2=temp2->next;
+        if(!l1) return l2;
+        if(!l2) return l1;
+
+        ListNode *curr1=l1,*curr2=l2;
+        int carry=0;
+        ListNode *dummy=new ListNode(-1);
+        ListNode *temp=dummy;
+        while(curr1 && curr2){
+            int sumi=curr1->val+curr2->val+carry;
+            temp->next=new ListNode(sumi%10);
+            temp=temp->next;
+            carry=sumi/10;
+            curr1=curr1->next;
+            curr2=curr2->next;
         }
-       
-        ListNode *curr;
-        curr=temp1?temp1:temp2;
-        while(curr)
-        {
-            data=curr->val+carry;
-            carry=data/10;
-            data=data%10;
-            tail->next=new ListNode();
-            tail->next->val=data;
-            tail=tail->next;
-            curr=curr->next;
+        while(curr1){
+            int sumi=curr1->val+carry;
+            temp->next=new ListNode(sumi%10);
+            temp=temp->next;
+            curr1=curr1->next;
+            carry=sumi/10;
         }
-         if(carry!=0 && curr==nullptr)
-        {
-            tail->next=new ListNode();
-            tail->next->val=carry;
-            tail=tail->next;
+        while(curr2){
+            int sumi=curr2->val+carry;
+            temp->next=new ListNode(sumi%10);
+            carry=sumi/10;
+            curr2=curr2->next;
+            temp=temp->next;
         }
-        return head;
+        if(carry) temp->next=new ListNode(carry);
+        return dummy->next;
     }
 };
