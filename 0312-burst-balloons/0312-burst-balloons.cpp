@@ -2,11 +2,11 @@ class Solution {
 private:
     int helper(int i,int j,vector<int>&nums,vector<vector<int>>&dp){
         if(i>j) return 0;
-        if (dp[i][j]!=-1) return dp[i][j];
-        int maxi=INT_MIN;
+        if(dp[i][j]!=-1) return dp[i][j];
+        int maxi=-1e9;
         for(int idx=i;idx<=j;idx++){
-            int cost=(nums[idx]*nums[i-1]*nums[j+1]) + helper(i,idx-1,nums,dp) + helper(idx+1,j,nums,dp);
-            maxi=max(maxi,cost);
+            int coins=nums[i-1]*nums[idx]*nums[j+1] + helper(i,idx-1,nums,dp) + helper(idx+1,j,nums,dp);
+            maxi=max(maxi,coins);
         }
         return dp[i][j]=maxi;
     }
