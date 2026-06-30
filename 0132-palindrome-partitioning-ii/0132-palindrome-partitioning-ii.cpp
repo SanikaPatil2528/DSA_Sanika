@@ -1,33 +1,29 @@
 class Solution {
 private:
     bool isPalindrome(string &s){
-        int i=0,j=s.size()-1;
-        while(i<j){
-            if(s[i]!=s[j]) return false;
-            i++;j--;
+        for(int i=0;i<s.size()/2;i++){
+            if(s[i]!=s[s.size()-1-i]) return false;
         }
         return true;
     }
-
-    int helper(int i,string &s,int n,vector<int>&dp){
-        if(i==n) return 0;
-        if(dp[i]!=-1) return dp[i];
+    int helper(int idx,string &s,vector<int>&dp){
+        if(idx==s.size()) return 0;
+        if(dp[idx]!=-1) return dp[idx];
         string temp="";
         int mini=1e9;
-        for(int j=i;j<n;j++){
+        for(int j=idx;j<s.size();j++){
             temp+=s[j];
             if(isPalindrome(temp)){
-                int cost=1+helper(j+1,s,n,dp);
+                int cost=1+helper(j+1,s,dp);
                 mini=min(mini,cost);
             }
         }
-        return dp[i]=mini;
+        return dp[idx]=mini;
     }
 public:
     int minCut(string s) {
-        int n=s.size();
-        vector<int>dp(n,-1);
-        int ans=helper(0,s,n,dp);
+        vector<int>dp(s.size(),-1);
+        int ans=helper(0,s,dp);
         return ans-1;
     }
 };
