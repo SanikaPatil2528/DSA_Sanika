@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [1013-fibonacci-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/1013-fibonacci-number) |
+| [1043-partition-array-for-maximum-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
 | [1092-shortest-common-supersequence](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [1020-number-of-enclaves](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1020-number-of-enclaves/) | Medium |
+| [1043-partition-array-for-maximum-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1283-find-the-smallest-divisor-given-a-threshold/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1482-minimum-number-of-days-to-make-m-bouquets/) | Medium |
