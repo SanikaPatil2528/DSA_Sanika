@@ -10,50 +10,37 @@
  */
 class Solution {
 private:
-    ListNode* getKthNode(ListNode*node,int k){
-        ListNode*temp=node;
-        while(--k){
-            temp=temp->next;
-            if(temp==nullptr) return nullptr;
+    ListNode* reverseLL(ListNode *&head){
+        ListNode *first=NULL,*sec=head,*third=head->next;
+        while(third){
+            sec->next=first;
+            first=sec;
+            sec=third;
+            third=third->next;
         }
-        return temp;
-    }
-    void reverseLL(ListNode*&head){
-        if(head==nullptr || head->next==nullptr) return;
-        ListNode*temp=head,*prev=nullptr,*nextNode=head->next;
-        while(temp && nextNode){
-            temp->next=prev;
-            prev=temp;
-            temp=nextNode;
-            nextNode=nextNode->next;
-        }
-        temp->next=prev;
-        head=temp;
+        sec->next=first;
+        return sec;
     }
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
-        ListNode*temp=head;
-        ListNode *prev=nullptr;
-        while(temp!=nullptr){
-            ListNode* kth=getKthNode(temp,k);
-            if(!kth){
-                if(prev) prev->next=temp;
-                break;
+        ListNode *curr=head;
+        ListNode *prevNode=NULL;
+        while(curr){
+            ListNode* temp=curr;
+            int cnt=1;
+            while(cnt<k && temp){
+                temp=temp->next;
+                cnt++;
             }
-            else{
-                ListNode* nextNode=kth->next;
-                kth->next=nullptr;
-                ListNode* oldTemp=temp;
-                reverseLL(temp);
-                if(oldTemp==head){
-                    head=kth;
-                }
-                else{
-                    prev->next=kth;
-                }
-                prev=oldTemp;
-                temp=nextNode;
-            }
+            if(!temp) return head;
+            ListNode *nextNode=temp->next;
+            temp->next=NULL;
+            ListNode *reverseHead=reverseLL(curr);
+            curr->next=nextNode;
+            if(!prevNode) head=reverseHead;
+            else prevNode->next=reverseHead;
+            prevNode=curr;
+            curr=curr->next;
         }
         return head;
     }
