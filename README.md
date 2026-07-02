@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0013-roman-to-integer/) | Easy |
+| [0029-divide-two-integers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0029-divide-two-integers/) | Medium |
 | [0048-rotate-image](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0048-rotate-image/) | Medium |
 | [0062-unique-paths](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0062-unique-paths/) | Medium |
 | [0066-plus-one](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0066-plus-one) |
@@ -347,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0029-divide-two-integers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0029-divide-two-integers/) | Medium |
 | [0090-subsets-ii](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0090-subsets-ii/) | Medium |
 | [0136-single-number](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0222-count-complete-tree-nodes/) | Easy |
