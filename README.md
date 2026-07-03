@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0013-roman-to-integer/) | Easy |
 | [0029-divide-two-integers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0029-divide-two-integers/) | Medium |
 | [0048-rotate-image](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0048-rotate-image/) | Medium |
+| [0050-powx-n](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0050-powx-n/) | Medium |
 | [0062-unique-paths](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0062-unique-paths/) | Medium |
 | [0066-plus-one](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0066-plus-one) |
 | [0189-rotate-array](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0189-rotate-array) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
 | [0044-wildcard-matching](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0044-wildcard-matching/) | Hard |
+| [0050-powx-n](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0050-powx-n/) | Medium |
 | [0203-remove-linked-list-elements](https://github.com/SanikaPatil2528/DSA_Sanika/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0234-palindrome-linked-list/) | Easy |
