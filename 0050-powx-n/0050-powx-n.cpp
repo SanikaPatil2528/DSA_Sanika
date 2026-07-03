@@ -1,16 +1,15 @@
 class Solution {
 public:
     double myPow(double x, int n) {
-        double ans=1.0;
-        long long nn=n;
-        if(nn<0) nn=nn*-1;
+        long long nn=abs(1LL*n);
+        double ans=1.00;
         while(nn){
             if(nn%2==0){
                 x=x*x;
                 nn=nn/2;
             }
             else{
-                ans=ans*x;
+                ans=x*ans;
                 nn=nn-1;
             }
         }
