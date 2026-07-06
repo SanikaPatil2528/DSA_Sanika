@@ -3,17 +3,18 @@ public:
     int numberOfSubstrings(string s) {
         int n=s.size();
         int a=-1,b=-1,c=-1;
-        int cnt=0;
-        for(int i=0;i<n;i++){
+        int i=0;
+        int ans=0;
+        while(i<n){
             if(s[i]=='a') a=i;
             else if(s[i]=='b') b=i;
             else c=i;
             if(a!=-1 && b!=-1 && c!=-1){
-                int miniIdx=min({a,b,c});
-                cnt+=1;
-                cnt+=miniIdx;
+                int mini=min({a,b,c});
+                ans+=(1+mini);
             }
+            i++;
         }
-        return cnt;
+        return ans;
     }
 };
