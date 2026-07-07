@@ -4,23 +4,22 @@ public:
         int n=s.size();
         int mini=0,maxi=0;
         for(int i=0;i<n;i++){
-            if(s[i]=='(') {
-                mini++;
+            if(s[i]=='('){
                 maxi++;
+                mini++;
             }
             else if(s[i]==')'){
-                mini--;
-                maxi--;
-                if(mini<0) mini=0;
+                mini=mini-1;
+                maxi=maxi-1;
                 if(maxi<0) return false;
+                mini=max(mini,0);
             }
-            else{
-                mini--;
-                if(mini<0) mini=0;
+            else {
+                mini=max(mini-1,0);
                 maxi=maxi+1;
             }
         }
-        if(mini!=0) return false;
-        return true;
+        if(mini==0) return true;
+        return false;
     }
 };
