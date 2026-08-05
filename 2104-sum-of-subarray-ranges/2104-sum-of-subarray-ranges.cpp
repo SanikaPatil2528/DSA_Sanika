@@ -1,95 +1,75 @@
 class Solution {
 private:
-    vector<int> NGE(vector<int>&nums){
+    vector<int>NGE(vector<int>&nums){
+        vector<int>nge(nums.size());
         stack<int>st;
-        int n=nums.size();
-        vector<int>ans(n);
-        ans[n-1]=n;
-        st.push(n-1);
-        for(int i=n-2;i>=0;i--){
-            while(!st.empty() && nums[st.top()]<=nums[i])
-                st.pop();
-            if(st.empty()) ans[i]=n;
-            else ans[i]=st.top();
+        for(int i=nums.size()-1;i>=0;i--){
+            while(!st.empty() && nums[st.top()]<=nums[i]) st.pop();
+            if(st.empty()) nge[i]=nums.size();
+            else nge[i]=st.top();
             st.push(i);
         }
-        return ans;
+        return nge;
     }
-    vector<int> NSE(vector<int>&nums){
+    vector<int>NSE(vector<int>&nums){
+        vector<int>nse(nums.size());
         stack<int>st;
-        int n=nums.size();
-        vector<int>ans(n);
-        ans[n-1]=n;
-        st.push(n-1);
-        for(int i=n-2;i>=0;i--){
-            while(!st.empty() && nums[st.top()]>=nums[i])
-                st.pop();
-            if(st.empty()) ans[i]=n;
-            else ans[i]=st.top();
+        for(int i=nums.size()-1;i>=0;i--){
+            while(!st.empty() && nums[st.top()]>=nums[i]) st.pop();
+            if(st.empty()) nse[i]=nums.size();
+            else nse[i]=st.top();
             st.push(i);
         }
-        return ans;
+        return nse;
     }
-    vector<int> PSE(vector<int>&nums){
-        int n=nums.size();
+    vector<int>PSE(vector<int>&nums){
+        vector<int>pse(nums.size());
         stack<int>st;
-        vector<int>ans(n);
-        ans[0]=-1;
-        st.push(0);
-        for(int i=1;i<n;i++){
-            while(!st.empty() && nums[st.top()]>nums[i])
-                st.pop();
-            if(st.empty()) ans[i]=-1;
-            else ans[i]=st.top();
+        for(int i=0;i<nums.size();i++){
+            while(!st.empty() && nums[st.top()]>nums[i]) st.pop();
+            if(st.empty()) pse[i]=-1;
+            else pse[i]=st.top();
             st.push(i);
         }
-        return ans;
+        return pse;
     }
     vector<int>PGE(vector<int>&nums){
-        int n=nums.size();
-        vector<int>ans(n);
-        ans[0]=-1;
+        vector<int>pge(nums.size());
         stack<int>st;
-        st.push(0);
-        for(int i=1;i<n;i++){
-            while(!st.empty() && nums[st.top()]<nums[i])
-                st.pop();
-            if(st.empty()) ans[i]=-1;
-            else ans[i]=st.top();
+        for(int i=0;i<nums.size();i++){
+            while(!st.empty() && nums[st.top()]<nums[i]) st.pop();
+            if(st.empty()) pge[i]=-1;
+            else pge[i]=st.top();
             st.push(i);
         }
-        return ans;
+        return pge;
     }
-    long long getMaxiSum(vector<int>&nums){
-        long long tot=0;
-        int n=nums.size();
+    long long subArrMaxi(vector<int>&nums){
         vector<int>nge=NGE(nums);
         vector<int>pge=PGE(nums);
-        for(int i=0;i<n;i++){
+        long long maxi=0;
+        for(int i=0;i<nums.size();i++){
             int left=i-pge[i];
             int right=nge[i]-i;
-            long long occur=(long long)left*right;
-            tot+=nums[i]*occur;
+            maxi+=(1LL*left*right*nums[i]);
         }
-        return tot;
+        return maxi;
     }
-    long long getMiniSum(vector<int>&nums){
-        long long tot=0;
+    long long subArrMini(vector<int>&nums){
         vector<int>nse=NSE(nums);
         vector<int>pse=PSE(nums);
-        int n=nums.size();
-        for(int i=0;i<n;i++){
+        long long mini=0;
+        for(int i=0;i<nums.size();i++){
             int left=i-pse[i];
             int right=nse[i]-i;
-            long long occur=(long long)left*right;
-            tot+=occur*nums[i];
+            mini+=(1LL*left*right*nums[i]);
         }
-        return tot;
+        return mini;
     }
 public:
     long long subArrayRanges(vector<int>& nums) {
-        long long larg=getMaxiSum(nums);
-        long long small=getMiniSum(nums);
-        return larg-small;
+        long long maxiSum=subArrMaxi(nums);
+        long long miniSum=subArrMini(nums);
+        return maxiSum-miniSum;
     }
 };
