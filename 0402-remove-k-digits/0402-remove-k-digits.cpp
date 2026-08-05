@@ -13,8 +13,10 @@ public:
             st.push(num[i]-'0');
             i++;
         }
-        while(k--)
+        while(k--){
             st.pop();
+        }
+
         string ans="";
         while(!st.empty()){
             ans+=to_string(st.top());
@@ -22,8 +24,7 @@ public:
         }
         string digit="";
         int s=ans.size()-1;
-        while(s>=0 && ans[s]=='0')
-            s--;
+        while(s>=0 && ans[s]=='0') s--;
         while(s>=0){
             digit+=ans[s];
             s--;
