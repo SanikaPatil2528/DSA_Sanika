@@ -455,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1192-critical-connections-in-a-network](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1192-critical-connections-in-a-network/) | Hard |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1559-detect-cycles-in-2d-grid](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
+| [3310-remove-methods-from-project](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -480,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1192-critical-connections-in-a-network](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1192-critical-connections-in-a-network/) | Hard |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
+| [3310-remove-methods-from-project](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -508,6 +510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1020-number-of-enclaves/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
+| [3310-remove-methods-from-project](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
