@@ -302,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1189-maximum-number-of-balloons](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
 ## Linked List
@@ -457,6 +458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1020-number-of-enclaves/) | Medium |
 | [1192-critical-connections-in-a-network](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1192-critical-connections-in-a-network/) | Hard |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Union-Find
@@ -512,6 +514,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0994-rotting-oranges](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1020-number-of-enclaves/) | Medium |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Matrix
@@ -655,6 +658,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -788,4 +792,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+## DP on Trees
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
 <!---LeetCode Topics End-->
