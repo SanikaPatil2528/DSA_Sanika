@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1903-largest-odd-number-in-string](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1903-largest-odd-number-in-string/) | Easy |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
 | [3612-process-string-with-special-operations-i](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 | [3838-weighted-word-mapping](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/3838-weighted-word-mapping/) | Easy |
 ## Dynamic Programming
@@ -307,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -765,6 +767,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
