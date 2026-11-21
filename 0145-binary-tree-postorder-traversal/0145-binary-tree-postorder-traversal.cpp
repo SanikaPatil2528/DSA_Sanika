@@ -10,15 +10,19 @@
  * };
  */
 class Solution {
+private:
+    vector<int> postorder(TreeNode*&root){
+        if(!root) return {};
+        vector<int>left=postorder(root->left);
+        vector<int>right=postorder(root->right);
+        vector<int>res;
+        res.insert(res.end(),left.begin(),left.end());
+        res.insert(res.end(),right.begin(),right.end());
+        res.push_back(root->val);
+        return res;
+    }
 public:
     vector<int> postorderTraversal(TreeNode* root) {
-        if(root==nullptr) return {};
-        vector<int>left=postorderTraversal(root->left);
-        vector<int>right=postorderTraversal(root->right);
-        vector<int>final;
-        final.insert(final.end(),left.begin(),left.end());
-        final.insert(final.end(),right.begin(),right.end());
-        final.push_back(root->val);
-        return final;
+        return postorder(root);
     }
 };
