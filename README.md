@@ -805,6 +805,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## DP on Trees
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0543-diameter-of-binary-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/SanikaPatil2528/DSA_Sanika/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
 <!---LeetCode Topics End-->
