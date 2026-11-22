@@ -11,16 +11,19 @@
  */
 class Solution {
 private:
-    void reversePreorder(TreeNode*root,vector<int>&ans,int level){
-        if(root==nullptr) return ;
+    void traversal(TreeNode* root,int level,vector<int>&ans){
+        if(!root) return;
         if(ans.size()==level) ans.push_back(root->val);
-        reversePreorder(root->right,ans,level+1);
-        reversePreorder(root->left,ans,level+1);
+        if(root->right) traversal(root->right,level+1,ans);
+        if(root->left) traversal(root->left,level+1,ans);
     }
 public:
     vector<int> rightSideView(TreeNode* root) {
+        if(!root) return {};
+        // root right left
         vector<int>ans;
-        reversePreorder(root,ans,0);
+        // node, level
+        traversal(root,0,ans);
         return ans;
     }
 };
