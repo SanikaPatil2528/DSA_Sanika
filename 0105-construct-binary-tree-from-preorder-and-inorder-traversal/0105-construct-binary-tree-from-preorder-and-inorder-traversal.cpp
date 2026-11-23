@@ -11,26 +11,26 @@
  */
 class Solution {
 private:
-    TreeNode* build(vector<int>&preorder,int preStart,int preEnd,vector<int>&inorder,int inStart,int inEnd,unordered_map<int,int>&mpp){
-        if(inStart>inEnd || preStart>preEnd) return NULL;
+    TreeNode* build(vector<int>& preorder, vector<int>& inorder,unordered_map<int,int>&inorderIdx,int preStart,int preEnd,int inStart,int inEnd){
+        int n=preorder.size();
+        if(preEnd<preStart || inEnd<inStart) return nullptr;
 
-       TreeNode* root=new TreeNode(preorder[preStart]);
-       int inRoot=mpp[root->val];
-       int numsLeft=inRoot-inStart;
+        TreeNode* root=new TreeNode(preorder[preStart]);
+        int inIdx=inorderIdx[root->val];
 
-       root->left=build(preorder,preStart+1,preStart+numsLeft,inorder,inStart,inRoot-1,mpp);
-       root->right=build(preorder,preStart+numsLeft+1,preEnd,inorder,inRoot+1,inEnd,mpp);
+        int leftSize=inIdx-inStart;
+        root->left=build(preorder,inorder,inorderIdx,preStart+1,preStart+leftSize,inStart,inIdx-1);
+        root->right=build(preorder,inorder,inorderIdx,preStart+leftSize+1,preEnd,inIdx+1,inEnd);
 
-       return root;
+        return root;
     }
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        // node,idx for inorder
-        unordered_map<int,int>mpp;
-        int n=inorder.size();
-        for(int i=0;i<n;i++)
-            mpp[inorder[i]]=i;
-        TreeNode* root=build(preorder,0,n-1,inorder,0,n-1,mpp);
+        // node->val,index for inorder
+        unordered_map<int,int>inorderIdx;
+        for(int i=0;i<inorder.size();i++) inorderIdx[inorder[i]]=i;
+
+        TreeNode* root=build(preorder,inorder,inorderIdx,0,preorder.size()-1,0,inorder.size()-1);
         return root;
     }
 };
