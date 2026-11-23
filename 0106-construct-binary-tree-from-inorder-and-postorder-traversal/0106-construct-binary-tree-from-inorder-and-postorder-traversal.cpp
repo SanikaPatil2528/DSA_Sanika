@@ -11,25 +11,24 @@
  */
 class Solution {
 private:
-    TreeNode* build(vector<int>&inorder,int inStart,int inEnd,vector<int>&postorder,int postStart,int postEnd,unordered_map<int,int>&mpp){
-        if(postEnd<postStart || inStart>inEnd) return NULL;
+    TreeNode* build(vector<int>& inorder, vector<int>& postorder, unordered_map<int,int>&inIdx, int inStart,int inEnd, int postStart, int postEnd){
+        if(inEnd<inStart || postEnd<postStart) return nullptr;
 
-        TreeNode*root=new TreeNode(postorder[postEnd]);
-        int inRoot=mpp[root->val];
-        int numsLeft=inRoot-inStart;
-        
-        root->left=build(inorder,inStart,inRoot-1,postorder,postStart,postStart+numsLeft-1,mpp);
-        root->right=build(inorder,inRoot+1,inEnd,postorder,postStart+numsLeft,postEnd-1,mpp);
+        TreeNode* root=new TreeNode(postorder[postEnd]);
+        int idx=inIdx[postorder[postEnd]];
+        int leftSize=idx-inStart;
+
+        root->left=build(inorder,postorder,inIdx,inStart,idx-1,postStart,postStart+leftSize-1);
+        root->right=build(inorder,postorder,inIdx,idx+1,inEnd,postStart+leftSize,postEnd-1);
 
         return root;
     }
 public:
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
-        int n=inorder.size();
-        unordered_map<int,int>mpp;
-        for(int i=0;i<n;i++)
-            mpp[inorder[i]]=i;
-        TreeNode*root=build(inorder,0,n-1,postorder,0,n-1,mpp);
+        unordered_map<int,int>inIdx;
+        for(int i=0;i<inorder.size();i++) inIdx[inorder[i]]=i;
+
+        TreeNode* root=build(inorder,postorder,inIdx,0,inorder.size()-1,0,postorder.size()-1);
         return root;
     }
 };
