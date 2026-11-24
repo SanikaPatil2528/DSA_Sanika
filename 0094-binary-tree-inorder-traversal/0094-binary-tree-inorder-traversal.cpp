@@ -10,19 +10,32 @@
  * };
  */
 class Solution {
-private:
-    vector<int> inorder(TreeNode*&root){
-        if(!root) return {};
-        vector<int>left=inorder(root->left);
-        vector<int>right=inorder(root->right);
-        vector<int>res;
-        res.insert(res.end(),left.begin(),left.end());
-        res.push_back(root->val);
-        res.insert(res.end(),right.begin(),right.end());
-        return res;
-    }
 public:
     vector<int> inorderTraversal(TreeNode* root) {
-        return inorder(root);
+        if(!root) return {};
+        vector<int>inorder;
+        
+        TreeNode* curr=root;
+        while(curr){
+            if(!curr->left){
+                inorder.push_back(curr->val);
+                curr=curr->right;
+            }
+            else{
+                TreeNode* prev=curr->left;
+                while(prev->right && prev->right!=curr) prev=prev->right;
+                if(!prev->right) {
+                    prev->right=curr;  // make thread
+                    curr=curr->left;
+                }
+                else{
+                    prev->right=nullptr;  // remove thread
+                    inorder.push_back(curr->val);
+                    curr=curr->right;
+                } 
+            }
+        }
+
+        return inorder;
     }
 };
