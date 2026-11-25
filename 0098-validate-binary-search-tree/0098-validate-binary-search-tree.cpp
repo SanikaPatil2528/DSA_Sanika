@@ -11,10 +11,12 @@
  */
 class Solution {
 private:
-    bool validate(TreeNode*&root,long long left,long long right){
-        if(!root) return true;
-        if(root->val<=left || root->val>=right) return false;
-        return (validate(root->left,left,root->val) && validate(root->right,root->val,right));
+    bool validate(TreeNode*root,long long lower_bound,long long upper_bound){
+        if(root->val<=lower_bound || root->val>=upper_bound) return false;
+        bool l=true,r=true;
+        if(root->left) l=validate(root->left,lower_bound,root->val);
+        if(root->right) r=validate(root->right,root->val,upper_bound);
+        return l&&r;
     }
 public:
     bool isValidBST(TreeNode* root) {
