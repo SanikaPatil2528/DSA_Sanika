@@ -12,14 +12,12 @@
 class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
-        if(!root) return NULL;
-
         TreeNode* curr=root;
-        while(curr!=NULL){
-            if (curr->val==val) return curr;
+        while(curr){
+            if(curr->val==val) return curr;
             if(curr->val<val) curr=curr->right;
             else curr=curr->left;
         }
-        return NULL;
+        return nullptr;
     }
 };
