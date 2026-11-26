@@ -12,8 +12,8 @@
 class BSTIterator {
 private:
     stack<TreeNode*>st;
-    void pushNodes(TreeNode*&node){
-        if(!node) return;
+    void pushNodes(TreeNode* node){
+        if(!node) return ;
         TreeNode*curr=node;
         while(curr){
             st.push(curr);
@@ -33,7 +33,7 @@ public:
     }
     
     bool hasNext() {
-        return st.size()!=0; 
+        return st.size();
     }
 };
 
