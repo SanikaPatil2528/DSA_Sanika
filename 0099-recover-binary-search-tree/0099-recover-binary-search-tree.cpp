@@ -11,32 +11,30 @@
  */
 class Solution {
 private:
-    TreeNode *prev,*first,*middle,*last;
-    void inorder(TreeNode*&root){
-        if(!root) return ;
-        inorder(root->left);
+    void inorderTraversal(TreeNode*root, TreeNode*&prev,TreeNode*&first,TreeNode*&second,TreeNode*&third){
+        if(!root) return;
+        inorderTraversal(root->left,prev,first,second,third);
 
-        if(prev!=NULL && root->val<prev->val){
-            // if first violation
-            if(first==NULL){
+        if(prev!=nullptr && prev->val>root->val){
+            if(!first){
                 first=prev;
-                middle=root;
-            } 
-            // second violation
+                second=root;
+            }
             else{
-                last=root;
+                third=root;
             }
         }
-        prev=root;  
-        
-        inorder(root->right);
+        prev=root;
+
+        inorderTraversal(root->right,prev,first,second,third);
     }
 public:
     void recoverTree(TreeNode* root) {
-        first=middle=last=NULL;
-        prev=new TreeNode(INT_MIN);
-        inorder(root);
-        if(first && last) swap(first->val,last->val);
-        else if(first && middle) swap(first->val,middle->val);
+        if(!root) return ;
+        TreeNode* prev=nullptr,*first=nullptr,*second=nullptr,*third=nullptr;
+        inorderTraversal(root,prev,first,second,third);
+
+        if(!third) swap(first->val,second->val);
+        else swap(first->val,third->val);
     }
 };
