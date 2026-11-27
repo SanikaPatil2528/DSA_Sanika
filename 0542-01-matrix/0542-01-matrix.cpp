@@ -1,43 +1,36 @@
 class Solution {
-private:
-    void bfs(vector<vector<int>>&ans,vector<vector<int>>&mat){
-        int m=mat.size();
-        int n=mat[0].size();
-        vector<vector<int>>vis(m,vector<int>(n,0));
-        // {{r,c},dis};
+public:
+    vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
+        int m=mat.size(),n=mat[0].size();
+        vector<vector<int>>dis(m,vector<int>(n,-1));
+        // {{i,j},d}
         queue<pair<pair<int,int>,int>>q;
-        vector<int>drow={-1,0,1,0};
-        vector<int>dcol={0,1,0,-1};
-
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
-                if(mat[i][j]==0){
-                    vis[i][j]=1;
+                if(mat[i][j]==0) {
                     q.push({{i,j},0});
+                    dis[i][j]=0;
                 }
             }
         }
 
+        vector<int>drow={0,-1,0,1};
+        vector<int>dcol={-1,0,1,0};
         while(!q.empty()){
-            int r=q.front().first.first;
-            int c=q.front().first.second;
-            int d=q.front().second;
+            auto nd=q.front();
             q.pop();
+            int r=nd.first.first;
+            int c=nd.first.second;
+            int d=nd.second;
             for(int i=0;i<4;i++){
                 int nr=r+drow[i];
                 int nc=c+dcol[i];
-                if(nr>=0 && nr<m && nc>=0 && nc<n && !vis[nr][nc] && mat[nr][nc]==1){
-                    vis[nr][nc]=1;
-                    ans[nr][nc]=d+1;
+                if(nr>=0 && nr<m && nc>=0 && nc<n && dis[nr][nc]==-1){
+                    dis[nr][nc]=d+1;
                     q.push({{nr,nc},d+1});
                 }
             }
         }
-    }
-public:
-    vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
-        vector<vector<int>>ans=mat;
-        bfs(ans,mat);
-        return ans;
+        return dis;
     }
 };
